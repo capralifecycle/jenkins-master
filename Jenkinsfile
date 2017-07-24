@@ -4,11 +4,13 @@
 @Library('cals') _
 
 properties([
-  // Build a new version every night so we keep up to date with upstream changes
-  pipelineTriggers([cron('H H(2-6) * * *')]),
+  pipelineTriggers([
+    // Build a new version every night so we keep up to date with upstream changes
+    cron('H H(2-6) * * *')]),
 
-  // Build when pushing to repo
-  githubPush(),
+    // Build when pushing to repo
+    githubPush(),
+  ]),
 
   // "GitHub project"
   [
