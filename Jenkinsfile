@@ -8,7 +8,14 @@ properties([
   pipelineTriggers([cron('H H(2-6) * * *')]),
 
   // Build when pushing to repo
-  githubPush()
+  githubPush(),
+
+  // "GitHub project"
+  [
+    $class: 'GithubProjectProperty',
+    displayName: '',
+    projectUrlStr: 'https://github.com/capralifecycle/jenkins-master/'
+  ],
 ])
 
 dockerNode {
