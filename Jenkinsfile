@@ -20,7 +20,7 @@ dockerNode {
   ]).trim() + '-' + env.BUILD_NUMBER
 
   stage('Build Docker image') {
-    img = docker.build('jenkins2/master', '.')
+    img = docker.build('jenkins2/master', '--pull .')
   }
 
   stage('Push Docker image') {
