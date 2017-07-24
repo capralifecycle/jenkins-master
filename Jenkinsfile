@@ -3,6 +3,11 @@
 // See https://github.com/capralifecycle/jenkins-pipeline-library
 @Library('cals') _
 
+properties([
+  // Build a new version every night so we keep up to date with upstream changes
+  pipelineTriggers([cron('H H(2-6) * * *')]),
+])
+
 dockerNode {
   stage('Checkout source') {
     checkout scm
