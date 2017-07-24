@@ -6,6 +6,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins-ci.org/display/JENKINS/AnsiColor+Plugin
   ansicolor \
 
+  # https://wiki.jenkins-ci.org/display/JENKINS/Authorize+Project+plugin
+  authorize-project \
+
   # https://wiki.jenkins-ci.org/display/JENKINS/Blue+Ocean+Plugin
   blueocean \
 
@@ -27,11 +30,20 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins-ci.org/display/JENKINS/HTML+Publisher+Plugin
   htmlpublisher \
 
+  # https://wiki.jenkins-ci.org/display/JENKINS/Wall+Display+Plugin
+  jenkinswalldisplay \
+
+  # https://wiki.jenkins.io/display/JENKINS/Job+DSL+Plugin
+  job-dsl \
+
   # https://wiki.jenkins-ci.org/display/JENKINS/Lockable+Resources+Plugin
   lockable-resources \
 
   # https://wiki.jenkins-ci.org/display/JENKINS/Mailer
   mailer \
+
+  # https://wiki.jenkins-ci.org/display/JENKINS/Matrix+Authorization+Strategy+Plugin
+  matrix-auth \
 
   # https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Stage+View+Plugin
   pipeline-stage-view \
