@@ -6,7 +6,7 @@
 properties([
   pipelineTriggers([
     // Build a new version every night so we keep up to date with upstream changes
-    cron('H H(2-6) * * *')]),
+    cron('H H(2-6) * * *'),
 
     // Build when pushing to repo
     githubPush(),
