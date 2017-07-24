@@ -26,17 +26,20 @@ dockerNode {
   }
 
   def img
-  def tagName = sh([
-    returnStdout: true,
-    script: 'date +%Y%m%d-%H%M'
-  ]).trim() + '-' + env.BUILD_NUMBER
 
   stage('Build Docker image') {
     img = docker.build('jenkins2/master', '--pull .')
   }
 
-  stage('Push Docker image') {
-    img.push(tagName)
-    img.push('latest')
+  if (env.BRANCH_NAME == 'master') {
+    stage('Push Docker image') {
+      def tagName = sh([
+        returnStdout: true,
+        script: 'date +%Y%m%d-%H%M'
+      ]).trim() + '-' + env.BUILD_NUMBER
+
+      img.push(tagName)
+      img.push('latest')
+    }
   }
 }
