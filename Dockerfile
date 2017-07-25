@@ -51,6 +51,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Slack+Plugin
   slack \
 
+  # https://wiki.jenkins.io/display/JENKINS/SonarQube+plugin?focusedCommentId=37748932
+  sonar \
+
   # https://wiki.jenkins.io/display/JENKINS/SSH+Agent+Plugin
   ssh-agent \
 
