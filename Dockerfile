@@ -65,3 +65,7 @@ RUN /usr/local/bin/install-plugins.sh \
 
   # https://wiki.jenkins-ci.org/display/JENKINS/Workspace+Cleanup+Plugin
   ws-cleanup
+
+# Try to force plugins to be updated with newer version from this image
+# when running against an existing installation
+ENV TRY_UPGRADE_IF_NO_MARKER=true
