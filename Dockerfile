@@ -45,6 +45,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Matrix+Authorization+Strategy+Plugin
   matrix-auth \
 
+  # https://wiki.jenkins.io/display/JENKINS/Maven+Project+Plugin
+  maven-plugin \
+
   # https://wiki.jenkins.io/display/JENKINS/Pipeline+Stage+View+Plugin
   pipeline-stage-view \
 
