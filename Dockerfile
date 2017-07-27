@@ -12,6 +12,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Blue+Ocean+Plugin
   blueocean \
 
+  # https://wiki.jenkins.io/display/JENKINS/Config+File+Provider+Plugin
+  config-file-provider \
+
   # https://wiki.jenkins.io/display/JENKINS/Credentials+Binding+Plugin
   credentials-binding \
 
