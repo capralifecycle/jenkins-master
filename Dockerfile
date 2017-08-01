@@ -30,6 +30,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/GitHub+Plugin
   github \
 
+  # https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin
+  github-oauth \
+
   # https://wiki.jenkins.io/display/JENKINS/HTML+Publisher+Plugin
   htmlpublisher \
 
