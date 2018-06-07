@@ -1,5 +1,6 @@
 # see https://github.com/jenkinsci/docker
-FROM jenkins/jenkins:lts-alpine
+# and https://hub.docker.com/r/jenkins/jenkins/tags/
+FROM jenkins/jenkins:2.126-alpine
 
 RUN /usr/local/bin/install-plugins.sh \
 
