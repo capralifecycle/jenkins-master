@@ -1,6 +1,6 @@
 # Jenkins master
 
-[![Build Status](https://jenkins.capra.tv/buildStatus/icon?job=jenkins-master/master)](https://jenkins.capra.tv/job/jenkins-master/master)
+[![Build Status](https://jenkins.capra.tv/buildStatus/icon?job=jenkins-master/master)](https://jenkins.capra.tv/job/jenkins-master/job/master/)
 
 This repository contains the Docker image for Jenkins master used with
 our Jenkins 2 setup.
