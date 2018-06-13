@@ -1,6 +1,6 @@
 # see https://github.com/jenkinsci/docker
 # and https://hub.docker.com/r/jenkins/jenkins/tags/
-FROM jenkins/jenkins:2.126-alpine
+FROM jenkins/jenkins:2.127-alpine
 
 RUN /usr/local/bin/install-plugins.sh \
 
