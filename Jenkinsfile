@@ -59,6 +59,20 @@ buildConfig([
       }
     }
 
+    stage('Commit and push any plugin changes') {
+      if (currentBuild.result == 'UNSTABLE') {
+        println 'Build is unstable - skipping'
+      } else {
+        sshagent(['github-calsci-sshkey']) {
+          withGitConfig {
+            withEnv(['GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"']) {
+              sh './commit-and-push-plugin-changes.sh'
+            }
+          }
+        }
+      }
+    }
+
     if (env.BRANCH_NAME == 'master' && !isSameImage) {
       stage('Push Docker image') {
         def tagName = sh([
