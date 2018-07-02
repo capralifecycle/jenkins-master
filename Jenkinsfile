@@ -31,6 +31,12 @@ buildConfig([
 
     def isSameImage = dockerPushCacheImage(img, lastImageId)
 
+    stage('Verify build and extract list of installed plugins') {
+      sh "./test-and-extract-plugins.sh ${img.id}"
+      echo 'Listing plugins that was bundled in the built container:'
+      sh 'cat plugin-history/plugin-list-clean-build.txt'
+    }
+
     if (env.BRANCH_NAME == 'master' && !isSameImage) {
       stage('Push Docker image') {
         def tagName = sh([
