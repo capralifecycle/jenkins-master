@@ -3,8 +3,8 @@ set -e
 
 : ${BRANCH_NAME?"Missing variable"}
 
-git add plugin-history/plugin-list.txt
-git add plugin-history/plugin-list-clean-build.txt
+git add plugin-history/plugin-list-prod.txt
+git add plugin-history/plugin-list-build.txt
 
 git status
 

@@ -63,5 +63,5 @@ if ! echo "$plugins" | grep -q blueocean; then
   exit 1
 fi
 
-echo "$plugins" >plugin-history/plugin-list-clean-build.txt
+echo "$plugins" >plugin-history/plugin-list-build.txt
 echo "Plugins extracted"

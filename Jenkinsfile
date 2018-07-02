@@ -51,9 +51,9 @@ buildConfig([
       def isSameImage = dockerPushCacheImage(img, lastImageId)
 
       stage('Verify build and extract list of installed plugins') {
-        sh "./test-and-extract-plugins.sh ${img.id}"
+        sh "./ci/test-and-extract-plugins.sh ${img.id}"
         echo 'Listing plugins that was bundled in the built container:'
-        sh 'cat plugin-history/plugin-list-clean-build.txt'
+        sh 'cat plugin-history/plugin-list-build.txt'
       }
 
       stage('Extract plugins from running instance') {
@@ -67,8 +67,8 @@ buildConfig([
             )
           ]) {
             docker.image('perl').inside {
-              sh './extract-plugins.sh'
-              sh 'cat plugin-history/plugin-list.txt'
+              sh './ci/extract-plugins-from-prod.sh'
+              sh 'cat plugin-history/plugin-list-prod.txt'
             }
           }
         } catch (e) {
@@ -85,7 +85,7 @@ buildConfig([
           sshagent(['github-calsci-sshkey']) {
             withGitConfig {
               withEnv(['GIT_SSH_COMMAND=ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no']) {
-                sh './commit-and-push-plugin-changes.sh'
+                sh './ci/commit-and-push-plugin-changes.sh'
               }
             }
           }
