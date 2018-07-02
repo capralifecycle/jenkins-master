@@ -22,73 +22,98 @@ buildConfig([
       checkout scm
     }
 
-    def img
-    def lastImageId = dockerPullCacheImage(dockerImageName)
+    def commitByJenkins = false
+    withGitConfig {
+      def configName = sh([
+        returnStdout: true,
+        script: 'git config user.name'
+      ]).trim()
 
-    stage('Build Docker image') {
-      img = docker.build(dockerImageName, "--cache-from $lastImageId --pull .")
-    }
+      def commitName = sh([
+        returnStdout: true,
+        script: 'git log --format="%an" -n1'
+      ]).trim()
 
-    def isSameImage = dockerPushCacheImage(img, lastImageId)
-
-    stage('Verify build and extract list of installed plugins') {
-      sh "./test-and-extract-plugins.sh ${img.id}"
-      echo 'Listing plugins that was bundled in the built container:'
-      sh 'cat plugin-history/plugin-list-clean-build.txt'
-    }
-
-    stage('Extract plugins from running instance') {
-      // Allow to fail without failing the job
-      try {
-        withCredentials([
-          usernamePassword(
-            credentialsId: 'jenkins-admin-token',
-            passwordVariable: 'JENKINS_PASSWORD',
-            usernameVariable: 'JENKINS_USERNAME',
-          )
-        ]) {
-          docker.image('perl').inside {
-            sh './extract-plugins.sh'
-            sh 'cat plugin-history/plugin-list.txt'
-          }
-        }
-      } catch (e) {
-        println 'Failed to extract plugins - will mark job as UNSTABLE'
-        println e
-        currentBuild.result = 'UNSTABLE'
+      if (configName == commitName) {
+        println 'Last commit was made by Jenkins - skipping'
+        currentBuild.result = 'NOT_BUILT'
+        commitByJenkins = true
       }
     }
 
-    stage('Commit and push any plugin changes') {
-      if (currentBuild.result == 'UNSTABLE') {
-        println 'Build is unstable - skipping'
-      } else {
-        sshagent(['github-calsci-sshkey']) {
-          withGitConfig {
-            withEnv(['GIT_SSH_COMMAND="ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"']) {
-              sh './commit-and-push-plugin-changes.sh'
+    if (!commitByJenkins || isManualTriggered()) {
+      def img
+      def lastImageId = dockerPullCacheImage(dockerImageName)
+
+      stage('Build Docker image') {
+        img = docker.build(dockerImageName, "--cache-from $lastImageId --pull .")
+      }
+
+      def isSameImage = dockerPushCacheImage(img, lastImageId)
+
+      stage('Verify build and extract list of installed plugins') {
+        sh "./test-and-extract-plugins.sh ${img.id}"
+        echo 'Listing plugins that was bundled in the built container:'
+        sh 'cat plugin-history/plugin-list-clean-build.txt'
+      }
+
+      stage('Extract plugins from running instance') {
+        // Allow to fail without failing the job
+        try {
+          withCredentials([
+            usernamePassword(
+              credentialsId: 'jenkins-admin-token',
+              passwordVariable: 'JENKINS_PASSWORD',
+              usernameVariable: 'JENKINS_USERNAME',
+            )
+          ]) {
+            docker.image('perl').inside {
+              sh './extract-plugins.sh'
+              sh 'cat plugin-history/plugin-list.txt'
+            }
+          }
+        } catch (e) {
+          println 'Failed to extract plugins - will mark job as UNSTABLE'
+          println e
+          currentBuild.result = 'UNSTABLE'
+        }
+      }
+
+      stage('Commit and push any plugin changes') {
+        if (currentBuild.result == 'UNSTABLE') {
+          println 'Build is unstable - skipping'
+        } else {
+          sshagent(['github-calsci-sshkey']) {
+            withGitConfig {
+              withEnv(['GIT_SSH_COMMAND=ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no']) {
+                sh './commit-and-push-plugin-changes.sh'
+              }
             }
           }
         }
       }
-    }
 
-    if (isSameImage && currentBuild.result != 'UNSTABLE') {
-      currentBuild.result = 'NOT_BUILT'
-    }
+      if (isSameImage && currentBuild.result != 'UNSTABLE') {
+        currentBuild.result = 'NOT_BUILT'
+      }
 
-    if (env.BRANCH_NAME == 'master' && !isSameImage) {
-      stage('Push Docker image') {
-        def tagName = sh([
-          returnStdout: true,
-          script: 'date +%Y%m%d-%H%M'
-        ]).trim() + '-' + env.BUILD_NUMBER
+      if (env.BRANCH_NAME == 'master' && !isSameImage) {
+        stage('Push Docker image') {
+          def tagName = sh([
+            returnStdout: true,
+            script: 'date +%Y%m%d-%H%M'
+          ]).trim() + '-' + env.BUILD_NUMBER
 
-        img.push(tagName)
-        img.push('latest')
+          img.push(tagName)
+          img.push('latest')
 
-        slackNotify message: "New Docker image available: $dockerImageName:$tagName"
+          slackNotify message: "New Docker image available: $dockerImageName:$tagName"
+        }
       }
     }
   }
+}
+
+def isManualTriggered() {
+  return currentBuild.rawBuild.getCauses()[0].toString().contains('UserIdCause')
 }
