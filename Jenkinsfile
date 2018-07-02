@@ -73,6 +73,10 @@ buildConfig([
       }
     }
 
+    if (isSameImage && currentBuild.result != 'UNSTABLE') {
+      currentBuild.result = 'NOT_BUILT'
+    }
+
     if (env.BRANCH_NAME == 'master' && !isSameImage) {
       stage('Push Docker image') {
         def tagName = sh([
