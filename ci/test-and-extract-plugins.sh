@@ -46,7 +46,7 @@ if [ $ok -eq 0 ]; then
 fi
 
 end=$(date +%s)
-echo "Took $(echo "$end - $start" | bc) seconds for Jenkins to boot up"
+echo "Took $((end-start)) seconds for Jenkins to boot up"
 
 jenkins_pass=$(docker cp $container_id:/var/jenkins_home/secrets/initialAdminPassword - | tar -xOf -)
 
