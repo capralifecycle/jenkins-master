@@ -37,6 +37,28 @@ buildConfig([
       sh 'cat plugin-history/plugin-list-clean-build.txt'
     }
 
+    stage('Extract plugins from running instance') {
+      // Allow to fail without failing the job
+      try {
+        withCredentials([
+          usernamePassword(
+            credentialsId: 'jenkins-admin-token',
+            passwordVariable: 'JENKINS_PASSWORD',
+            usernameVariable: 'JENKINS_USERNAME',
+          )
+        ]) {
+          docker.image('perl').inside {
+            sh './extract-plugins.sh'
+            sh 'cat plugin-history/plugin-list.txt'
+          }
+        }
+      } catch (e) {
+        println 'Failed to extract plugins - will mark job as UNSTABLE'
+        println e
+        currentBuild.result = 'UNSTABLE'
+      }
+    }
+
     if (env.BRANCH_NAME == 'master' && !isSameImage) {
       stage('Push Docker image') {
         def tagName = sh([
