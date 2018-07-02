@@ -36,7 +36,6 @@ buildConfig([
 
       if (configName == commitName) {
         println 'Last commit was made by Jenkins - skipping'
-        currentBuild.result = 'NOT_BUILT'
         commitByJenkins = true
       }
     }
@@ -91,10 +90,6 @@ buildConfig([
             }
           }
         }
-      }
-
-      if (isSameImage && currentBuild.result != 'UNSTABLE') {
-        currentBuild.result = 'NOT_BUILT'
       }
 
       if (env.BRANCH_NAME == 'master' && !isSameImage) {
