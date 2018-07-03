@@ -50,7 +50,6 @@ github:1.29.2
 handlebars:1.1.1
 handy-uri-templates-2-api:2.1.6-1.0
 htmlpublisher:1.16
-icon-shim:2.0.3
 jackson2-api:2.8.11.3
 javadoc:1.4
 jdk-tool:1.1
@@ -58,7 +57,6 @@ jenkins-design-language:1.6.2
 jira:3.0.0
 job-dsl:1.69
 jquery-detached:1.2.1
-jquery:1.12.4-0
 jsch:0.1.54.2
 junit:1.24
 lockable-resources:2.3
@@ -68,7 +66,6 @@ matrix-auth:2.2
 matrix-project:1.13
 maven-plugin:3.1.2
 mercurial:2.4
-metrics:4.0.2.2
 momentjs:1.1.1
 pipeline-build-step:2.7
 pipeline-graph-analysis:1.7
