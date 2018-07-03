@@ -92,6 +92,10 @@ buildConfig([
         }
       }
 
+      stage('Diff between plugin versions') {
+        sh 'diff -ty plugin-history/plugin-list-prod.txt plugin-history/plugin-list-build.txt || :'
+      }
+
       if (env.BRANCH_NAME == 'master' && !isSameImage) {
         stage('Push Docker image') {
           def tagName = sh([
