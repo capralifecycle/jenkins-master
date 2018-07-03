@@ -70,7 +70,6 @@ buildConfig([
         buildImg.inside {
           sh "./ci/test-and-extract-plugins.sh ${img.id}"
           echo 'Listing plugins that was bundled in the built container:'
-          sh 'cat plugin-history/plugin-list-build.txt'
         }
       }
 
@@ -86,7 +85,6 @@ buildConfig([
           ]) {
             buildImg.inside {
               sh './ci/extract-plugins-from-prod.sh'
-              sh 'cat plugin-history/plugin-list-prod.txt'
             }
           }
         } catch (e) {
