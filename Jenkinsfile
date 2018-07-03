@@ -74,7 +74,6 @@ buildConfig([
       stage('Verify build and extract list of installed plugins') {
         buildImg.inside {
           sh "./ci/test-and-extract-plugins.sh ${img.id}"
-          echo 'Listing plugins that was bundled in the built container:'
         }
       }
 
