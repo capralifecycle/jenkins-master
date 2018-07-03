@@ -31,6 +31,10 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Email-ext+plugin
   email-ext \
   \
+  # https://wiki.jenkins.io/display/JENKINS/EnvInject+Plugin
+  # Needed for mavenJob { environmentVariables } in job DSL
+  envinject \
+  \
   # https://wiki.jenkins.io/display/JENKINS/FindBugs+Plugin
   findbugs \
   \
