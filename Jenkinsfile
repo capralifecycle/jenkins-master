@@ -6,22 +6,27 @@
 def dockerImageName = '923402097046.dkr.ecr.eu-central-1.amazonaws.com/jenkins2/master'
 def dockerBuildImageName = '923402097046.dkr.ecr.eu-central-1.amazonaws.com/jenkins2/master-builder'
 
+def jobProperties = [
+  parameters([
+    // Add parameter so we can build without using cached image layers.
+    // This forces plugins to be reinstalled to their latest version.
+    booleanParam(
+      defaultValue: false,
+      description: 'Force build without Docker cache',
+      name: 'docker_skip_cache'
+    ),
+  ]),
+]
+
+if (env.BRANCH_NAME == 'master') {
+  jobProperties << pipelineTriggers([
+    // Build a new version every night so we keep up to date with upstream changes
+    cron('H H(2-6) * * *'),
+  ])
+}
+
 buildConfig([
-  jobProperties: [
-    pipelineTriggers([
-      // Build a new version every night so we keep up to date with upstream changes
-      cron('H H(2-6) * * *'),
-    ]),
-    parameters([
-      // Add parameter so we can build without using cached image layers.
-      // This forces plugins to be reinstalled to their latest version.
-      booleanParam(
-        defaultValue: false,
-        description: 'Force build without Docker cache',
-        name: 'docker_skip_cache'
-      ),
-    ]),
-  ],
+  jobProperties: jobProperties,
   slack: [
     channel: '#cals-dev-info',
     teamDomain: 'cals-capra',
