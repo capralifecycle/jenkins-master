@@ -43,9 +43,6 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/HTML+Publisher+Plugin
   htmlpublisher \
   \
-  # https://wiki.jenkins.io/display/JENKINS/Wall+Display+Plugin
-  jenkinswalldisplay \
-  \
   # https://wiki.jenkins.io/display/JENKINS/Job+DSL+Plugin
   job-dsl \
   \
@@ -54,6 +51,7 @@ RUN /usr/local/bin/install-plugins.sh \
   \
   # https://wiki.jenkins.io/display/JENKINS/M2+Release+Plugin
   m2release \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Mailer
   mailer \
   \
