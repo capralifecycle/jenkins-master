@@ -31,6 +31,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Email-ext+plugin
   email-ext \
   \
+  # https://wiki.jenkins.io/display/JENKINS/FindBugs+Plugin
+  findbugs \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Git+Plugin
   git \
   \
