@@ -26,6 +26,7 @@ blueocean-web:1.6.2
 blueocean:1.6.2
 bouncycastle-api:2.16.3
 branch-api:2.0.20
+build-monitor-plugin:1.12+build.201805070054
 cloudbees-bitbucket-branch-source:2.2.11
 cloudbees-folder:6.5.1
 config-file-provider:2.18
@@ -51,7 +52,6 @@ htmlpublisher:1.16
 jackson2-api:2.8.11.3
 javadoc:1.4
 jenkins-design-language:1.6.2
-jenkinswalldisplay:0.6.34
 jira:3.0.0
 job-dsl:1.69
 jquery-detached:1.2.1
