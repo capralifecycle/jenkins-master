@@ -4,6 +4,7 @@
 @Library('cals') _
 
 def dockerImageName = '923402097046.dkr.ecr.eu-central-1.amazonaws.com/jenkins2/master'
+def dockerBuildImageName = '923402097046.dkr.ecr.eu-central-1.amazonaws.com/jenkins2/master-builder'
 
 buildConfig([
   jobProperties: [
@@ -41,6 +42,8 @@ buildConfig([
     }
 
     if (!commitByJenkins || isManualTriggered()) {
+      def buildImg = prepareBuildImage(dockerBuildImageName)
+
       def img
       def lastImageId = dockerPullCacheImage(dockerImageName)
 
@@ -51,9 +54,11 @@ buildConfig([
       def isSameImage = dockerPushCacheImage(img, lastImageId)
 
       stage('Verify build and extract list of installed plugins') {
-        sh "./ci/test-and-extract-plugins.sh ${img.id}"
-        echo 'Listing plugins that was bundled in the built container:'
-        sh 'cat plugin-history/plugin-list-build.txt'
+        buildImg.inside {
+          sh "./ci/test-and-extract-plugins.sh ${img.id}"
+          echo 'Listing plugins that was bundled in the built container:'
+          sh 'cat plugin-history/plugin-list-build.txt'
+        }
       }
 
       stage('Extract plugins from running instance') {
@@ -66,7 +71,7 @@ buildConfig([
               usernameVariable: 'JENKINS_USERNAME',
             )
           ]) {
-            docker.image('perl').inside {
+            buildImg.inside {
               sh './ci/extract-plugins-from-prod.sh'
               sh 'cat plugin-history/plugin-list-prod.txt'
             }
@@ -82,9 +87,9 @@ buildConfig([
         if (currentBuild.result == 'UNSTABLE') {
           println 'Build is unstable - skipping'
         } else {
-          sshagent(['github-calsci-sshkey']) {
-            withGitConfig {
-              withEnv(['GIT_SSH_COMMAND=ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no']) {
+          withGitConfig {
+            buildImg.inside {
+              sshagent(['github-calsci-sshkey']) {
                 sh './ci/commit-and-push-plugin-changes.sh'
               }
             }
@@ -93,7 +98,9 @@ buildConfig([
       }
 
       stage('Diff between plugin versions') {
-        sh 'diff -ty plugin-history/plugin-list-prod.txt plugin-history/plugin-list-build.txt || :'
+        buildImg.inside {
+          sh 'diff -ty plugin-history/plugin-list-prod.txt plugin-history/plugin-list-build.txt || :'
+        }
       }
 
       if (env.BRANCH_NAME == 'master' && !isSameImage) {
@@ -115,4 +122,16 @@ buildConfig([
 
 def isManualTriggered() {
   return currentBuild.rawBuild.getCauses()[0].toString().contains('UserIdCause')
+}
+
+def prepareBuildImage(dockerBuildImageName) {
+  def buildImg
+  def lastBuildImageId = dockerPullCacheImage(dockerBuildImageName)
+
+  stage('Build Docker image (for build)') {
+    buildImg = docker.build(dockerBuildImageName, "--cache-from $lastBuildImageId --pull -f builder.Dockerfile .")
+  }
+
+  dockerPushCacheImage(buildImg, lastBuildImageId)
+  return buildImg
 }
