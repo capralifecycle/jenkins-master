@@ -64,6 +64,10 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Pipeline+Stage+View+Plugin
   pipeline-stage-view \
   \
+  # https://wiki.jenkins.io/display/JENKINS/Pipeline+Utility+Steps+Plugin
+  # Provides readMavenPom()
+  pipeline-utility-steps \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Slack+Plugin
   slack \
   \
