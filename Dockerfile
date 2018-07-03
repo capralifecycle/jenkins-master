@@ -68,6 +68,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Maven+Project+Plugin
   maven-plugin \
   \
+  # https://wiki.jenkins.io/display/JENKINS/Parameterized+Trigger+Plugin
+  parameterized-trigger \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Pipeline+Stage+View+Plugin
   pipeline-stage-view \
   \
