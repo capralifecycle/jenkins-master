@@ -13,6 +13,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Blue+Ocean+Plugin
   blueocean \
   \
+  # https://wiki.jenkins.io/display/JENKINS/Build+Monitor+Plugin
+  build-monitor-plugin \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Config+File+Provider+Plugin
   config-file-provider \
   \
