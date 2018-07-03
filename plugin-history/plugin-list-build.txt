@@ -40,6 +40,8 @@ docker-workflow:1.17
 durable-task:1.22
 email-ext:2.62
 embeddable-build-status:1.9
+envinject-api:1.5
+envinject:2.1.5
 favorite:2.3.2
 findbugs:4.72
 git-client:2.7.2
@@ -56,7 +58,7 @@ jackson2-api:2.8.11.3
 javadoc:1.4
 jenkins-design-language:1.6.2
 jira:3.0.0
-job-dsl:1.69
+job-dsl:1.70
 jquery-detached:1.2.1
 jsch:0.1.54.2
 junit:1.24

@@ -41,6 +41,8 @@ docker-workflow:1.17
 durable-task:1.22
 email-ext:2.62
 embeddable-build-status:1.9
+envinject-api:1.5
+envinject:2.1.5
 favorite:2.3.2
 findbugs:4.72
 git-client:2.7.2
