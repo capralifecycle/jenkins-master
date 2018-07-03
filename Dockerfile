@@ -22,6 +22,9 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/CloudBees+Docker+Pipeline+Plugin
   docker-workflow \
   \
+  # https://wiki.jenkins.io/display/JENKINS/Embeddable+Build+Status+Plugin
+  embeddable-build-status \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Email-ext+plugin
   email-ext \
   \
@@ -46,6 +49,8 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Lockable+Resources+Plugin
   lockable-resources \
   \
+  # https://wiki.jenkins.io/display/JENKINS/M2+Release+Plugin
+  m2release \
   # https://wiki.jenkins.io/display/JENKINS/Mailer
   mailer \
   \
