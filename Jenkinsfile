@@ -12,6 +12,15 @@ buildConfig([
       // Build a new version every night so we keep up to date with upstream changes
       cron('H H(2-6) * * *'),
     ]),
+    parameters([
+      // Add parameter so we can build without using cached image layers.
+      // This forces plugins to be reinstalled to their latest version.
+      booleanParam(
+        defaultValue: false,
+        description: 'Force build without Docker cache',
+        name: 'docker_skip_cache'
+      ),
+    ]),
   ],
   slack: [
     channel: '#cals-dev-info',
@@ -48,7 +57,11 @@ buildConfig([
       def lastImageId = dockerPullCacheImage(dockerImageName)
 
       stage('Build Docker image') {
-        img = docker.build(dockerImageName, "--cache-from $lastImageId --pull .")
+        def args = ""
+        if (params.docker_skip_cache) {
+          args = " --no-cache"
+        }
+        img = docker.build(dockerImageName, "--cache-from $lastImageId$args --pull .")
       }
 
       def isSameImage = dockerPushCacheImage(img, lastImageId)
