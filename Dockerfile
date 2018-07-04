@@ -45,6 +45,10 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/Git+Plugin
   git \
   \
+  # https://wiki.jenkins-ci.org/display/JENKINS/Git+Parameter+Plugin
+  # Needed for parameters { gitParam } in job DSL
+  git-parameter \
+  \
   # https://wiki.jenkins.io/display/JENKINS/GitHub+Plugin
   github \
   \
