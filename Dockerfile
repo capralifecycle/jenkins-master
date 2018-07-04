@@ -38,6 +38,10 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/FindBugs+Plugin
   findbugs \
   \
+  # https://wiki.jenkins.io/display/JENKINS/GitHub+pull+request+builder+plugin
+  # Used with githubPullRequest job DSL step
+  ghprb \
+  \
   # https://wiki.jenkins.io/display/JENKINS/Git+Plugin
   git \
   \
