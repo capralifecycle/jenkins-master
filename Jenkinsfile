@@ -98,6 +98,12 @@ buildConfig([
         }
       }
 
+      stage('Diff between plugin versions') {
+        buildImg.inside {
+          sh './ci/generate-plugin-diff.sh'
+        }
+      }
+
       stage('Commit and push any plugin changes') {
         if (currentBuild.result == 'UNSTABLE') {
           println 'Build is unstable - skipping'
@@ -109,12 +115,6 @@ buildConfig([
               }
             }
           }
-        }
-      }
-
-      stage('Diff between plugin versions') {
-        buildImg.inside {
-          sh 'diff -ty plugin-history/plugin-list-prod.txt plugin-history/plugin-list-build.txt || :'
         }
       }
 

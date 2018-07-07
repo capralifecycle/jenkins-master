@@ -5,6 +5,7 @@ set -e
 
 git add plugin-history/plugin-list-prod.txt
 git add plugin-history/plugin-list-build.txt
+git add plugin-history/plugin-list-prod.diff
 
 git status
 
