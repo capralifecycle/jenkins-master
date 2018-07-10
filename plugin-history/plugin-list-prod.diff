@@ -32,7 +32,7 @@ blueocean:1.6.2                                                    blueocean:1.6
 bouncycastle-api:2.16.3                                            bouncycastle-api:2.16.3
 branch-api:2.0.20                                                  branch-api:2.0.20
 build-monitor-plugin:1.12+build.201805070054                       build-monitor-plugin:1.12+build.201805070054
-cloudbees-bitbucket-branch-source:2.2.11                           cloudbees-bitbucket-branch-source:2.2.11
+cloudbees-bitbucket-branch-source:2.2.11                        |  cloudbees-bitbucket-branch-source:2.2.12
 cloudbees-folder:6.5.1                                             cloudbees-folder:6.5.1
 command-launcher:1.2                                            <
 conditional-buildstep:1.3.6                                        conditional-buildstep:1.3.6
@@ -46,7 +46,7 @@ durable-task:1.22                                                  durable-task:
 email-ext:2.62                                                     email-ext:2.62
 embeddable-build-status:1.9                                        embeddable-build-status:1.9
 envinject-api:1.5                                                  envinject-api:1.5
-envinject:2.1.5                                                    envinject:2.1.5
+envinject:2.1.5                                                 |  envinject:2.1.6
 external-monitor-job:1.7                                        <
 favorite:2.3.2                                                     favorite:2.3.2
 findbugs:4.72                                                      findbugs:4.72
@@ -120,7 +120,7 @@ workflow-cps-global-lib:2.9                                        workflow-cps-
 workflow-cps:2.54                                                  workflow-cps:2.54
 workflow-durable-task-step:2.19                                    workflow-durable-task-step:2.19
 workflow-job:2.22                                                  workflow-job:2.22
-workflow-multibranch:2.19                                          workflow-multibranch:2.19
+workflow-multibranch:2.19                                       |  workflow-multibranch:2.20
 workflow-scm-step:2.6                                              workflow-scm-step:2.6
 workflow-step-api:2.16                                             workflow-step-api:2.16
 workflow-support:2.19                                              workflow-support:2.19
