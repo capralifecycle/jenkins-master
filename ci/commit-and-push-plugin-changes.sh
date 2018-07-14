@@ -11,12 +11,7 @@ git status
 
 if ! git diff-index --cached --quiet HEAD; then
   git commit -m "Update plugin log"
-
-  # We push directly to the remote which will also use the SSH agent
-  # we provide in Jenkinsfile.
-  git push git@github.com:capralifecycle/jenkins-master.git HEAD:"$BRANCH_NAME"
-
-  # TODO: Handle race condition if two jobs run at the same time?
+  git push origin HEAD:"$BRANCH_NAME"
 else
   echo "No changes - nothing to commit/push"
 fi

@@ -98,6 +98,10 @@ buildConfig([
         }
       }
 
+      // Use a milestone so that two commits have less chance of getting the
+      // wrong order.
+      milestone 1
+
       stage('Diff between plugin versions') {
         buildImg.inside {
           sh './ci/generate-plugin-diff.sh'
@@ -108,9 +112,9 @@ buildConfig([
         if (currentBuild.result == 'UNSTABLE') {
           println 'Build is unstable - skipping'
         } else {
-          withGitConfig {
-            buildImg.inside {
-              sshagent(['github-calsci-sshkey']) {
+          buildImg.inside {
+            withGitConfig {
+              withGitTokenCredentials {
                 sh './ci/commit-and-push-plugin-changes.sh'
               }
             }
@@ -120,6 +124,8 @@ buildConfig([
 
       if (env.BRANCH_NAME == 'master' && !isSameImage) {
         stage('Push Docker image') {
+          milestone 2
+
           def tagName = sh([
             returnStdout: true,
             script: 'date +%Y%m%d-%H%M'
