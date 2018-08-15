@@ -1,6 +1,8 @@
 # see https://github.com/jenkinsci/docker
 # and https://hub.docker.com/r/jenkins/jenkins/tags/
-FROM jenkins/jenkins:2.133-alpine
+
+# NOTE: Next version bump is planned to be an LTS version!
+FROM jenkins/jenkins:2.138-alpine
 
 RUN /usr/local/bin/install-plugins.sh \
   \
