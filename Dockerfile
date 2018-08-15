@@ -55,6 +55,11 @@ RUN /usr/local/bin/install-plugins.sh \
   # https://wiki.jenkins.io/display/JENKINS/GitHub+OAuth+Plugin
   github-oauth \
   \
+  # https://plugins.jenkins.io/github-scm-trait-notification-context
+  # Needed for custom notification context in GitHub
+  # https://github.com/capralifecycle/jenkins-job-seeder-v2/blob/293b981481464e64c86521d75948b0da9efd1809/jobs.groovy#L1958-L1968
+  github-scm-trait-notification-context \
+  \
   # https://wiki.jenkins.io/display/JENKINS/HTML+Publisher+Plugin
   htmlpublisher \
   \
