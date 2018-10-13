@@ -37,25 +37,9 @@ buildConfig([
       checkout scm
     }
 
-    def commitByJenkins = false
-    withGitConfig {
-      def configName = sh([
-        returnStdout: true,
-        script: 'git config user.name'
-      ]).trim()
-
-      def commitName = sh([
-        returnStdout: true,
-        script: 'git log --format="%an" -n1'
-      ]).trim()
-
-      if (configName == commitName) {
-        println 'Last commit was made by Jenkins - skipping'
-        commitByJenkins = true
-      }
-    }
-
-    if (!commitByJenkins || isManualTriggered()) {
+    if (previousRecentCommitIsJenkins() && !isManualTriggered()) {
+      println 'Last commit was made by Jenkins - skipping'
+    } else {
       def buildImg = prepareBuildImage(dockerBuildImageName)
 
       def img
@@ -139,6 +123,27 @@ buildConfig([
       }
     }
   }
+}
+
+def previousRecentCommitIsJenkins() {
+  def res = false
+  withGitConfig {
+    def configName = sh([
+      returnStdout: true,
+      script: 'git config user.name'
+    ]).trim()
+
+    def commitName = sh([
+      returnStdout: true,
+      script: 'git log --since="10 minutes" --format="%an" -n1'
+    ]).trim()
+
+    if (configName == commitName) {
+      res = true
+    }
+  }
+
+  return res
 }
 
 def isManualTriggered() {
