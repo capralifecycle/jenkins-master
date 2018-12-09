@@ -3,7 +3,7 @@
 
 # NOTE: We only want to bump with LTS versions.
 # They have a minor number starting with 1.
-FROM jenkins/jenkins:2.138.2-alpine
+FROM jenkins/jenkins:2.150.1-alpine
 
 # For information about a plugin, go to:
 # https://plugins.jenkins.io/NAMEOFPLUGIN
