@@ -1,9 +1,7 @@
 # see https://github.com/jenkinsci/docker
 # and https://hub.docker.com/r/jenkins/jenkins/tags/
 
-# NOTE: We only want to bump with LTS versions.
-# They have a minor number starting with 1.
-FROM jenkins/jenkins:2.150.1-alpine
+FROM jenkins/jenkins:lts-alpine@sha256:1c626c48537129ad375832cd961d6ecd4eb8aa3866f24ab23c57c21bd6d81f3f
 
 # For information about a plugin, go to:
 # https://plugins.jenkins.io/NAMEOFPLUGIN
