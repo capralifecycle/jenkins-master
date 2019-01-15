@@ -57,7 +57,7 @@ buildConfig([
 
       stage('Verify build and extract list of installed plugins') {
         buildImg.inside {
-          sh "./ci/test-and-extract-plugins.sh ${img.id}"
+          sh "./ci/test-and-extract-data.sh ${img.id}"
         }
       }
 

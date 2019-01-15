@@ -65,3 +65,27 @@ fi
 
 echo "$plugins" >plugin-history/plugin-list-build.txt
 echo "Plugins extracted"
+
+# Extract the version and store as a file
+echo "Extracting version"
+
+version=$(
+  docker run -i --rm --network $network_id byrnedo/alpine-curl -fsS -i -u "admin:$jenkins_pass" "jenkins:8080/api/" \
+    | grep ^X-Jenkins: \
+    | awk '{ print $2 }' \
+    | tr -d '\r'
+)
+
+if [ -z "$version" ]; then
+  echo "Failed to extract version"
+  exit 1
+fi
+
+(
+  echo "This is the last built version and is kept"
+  echo "automatically updated when building in Jenkins."
+  echo
+  echo "Version: $version"
+) >last-version.txt
+
+echo "Finished"
