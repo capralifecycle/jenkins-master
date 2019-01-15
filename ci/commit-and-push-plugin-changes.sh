@@ -11,7 +11,7 @@ git add last-version.txt
 git status
 
 if ! git diff-index --cached --quiet HEAD; then
-  git commit -m "Update plugin log"
+  git commit -m "Update tracked files"
   git push origin HEAD:"$BRANCH_NAME"
 else
   echo "No changes - nothing to commit/push"
