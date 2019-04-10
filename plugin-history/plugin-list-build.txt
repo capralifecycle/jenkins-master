@@ -41,7 +41,7 @@ docker-commons:1.14
 docker-workflow:1.18
 durable-task:1.29
 email-ext:2.66
-embeddable-build-status:2.0
+embeddable-build-status:2.0.1
 envinject-api:1.5
 envinject:2.1.6
 favorite:2.3.2

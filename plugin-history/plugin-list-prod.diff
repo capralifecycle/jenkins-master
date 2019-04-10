@@ -45,7 +45,7 @@ docker-commons:1.14                                                docker-common
 docker-workflow:1.18                                               docker-workflow:1.18
 durable-task:1.29                                                  durable-task:1.29
 email-ext:2.66                                                     email-ext:2.66
-embeddable-build-status:2.0                                        embeddable-build-status:2.0
+embeddable-build-status:2.0                                     |  embeddable-build-status:2.0.1
 envinject-api:1.5                                                  envinject-api:1.5
 envinject:2.1.6                                                    envinject:2.1.6
 external-monitor-job:1.7                                        <
