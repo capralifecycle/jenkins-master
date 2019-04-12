@@ -31,7 +31,7 @@ blueocean-rest:1.14.0                                              blueocean-res
 blueocean-web:1.14.0                                               blueocean-web:1.14.0
 blueocean:1.14.0                                                   blueocean:1.14.0
 bouncycastle-api:2.17                                              bouncycastle-api:2.17
-branch-api:2.3.0                                                |  branch-api:2.4.0
+branch-api:2.4.0                                                   branch-api:2.4.0
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
 cloudbees-bitbucket-branch-source:2.4.4                            cloudbees-bitbucket-branch-source:2.4.4
 cloudbees-folder:6.8                                               cloudbees-folder:6.8
@@ -45,7 +45,7 @@ docker-commons:1.14                                                docker-common
 docker-workflow:1.18                                               docker-workflow:1.18
 durable-task:1.29                                                  durable-task:1.29
 email-ext:2.66                                                     email-ext:2.66
-embeddable-build-status:2.0                                     |  embeddable-build-status:2.0.1
+embeddable-build-status:2.0.1                                      embeddable-build-status:2.0.1
 envinject-api:1.5                                                  envinject-api:1.5
 envinject:2.1.6                                                    envinject:2.1.6
 external-monitor-job:1.7                                        <
@@ -81,7 +81,7 @@ mailer:1.23                                                        mailer:1.23
 matrix-auth:2.3                                                    matrix-auth:2.3
 matrix-project:1.14                                                matrix-project:1.14
 maven-plugin:3.2                                                   maven-plugin:3.2
-mercurial:2.5                                                      mercurial:2.5
+mercurial:2.6                                                   |  mercurial:2.5
 momentjs:1.1.1                                                     momentjs:1.1.1
 pam-auth:1.5                                                    <
 parameterized-trigger:2.35.2                                       parameterized-trigger:2.35.2
