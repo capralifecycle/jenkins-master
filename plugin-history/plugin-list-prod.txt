@@ -108,7 +108,7 @@ sse-gateway:1.17
 ssh-agent:1.17
 ssh-credentials:1.16
 structs:1.19
-swarm:3.16
+swarm:3.17
 timestamper:1.9
 token-macro:2.7
 variant:1.2

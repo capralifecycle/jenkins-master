@@ -110,7 +110,7 @@ sse-gateway:1.17                                                   sse-gateway:1
 ssh-agent:1.17                                                     ssh-agent:1.17
 ssh-credentials:1.16                                               ssh-credentials:1.16
 structs:1.19                                                       structs:1.19
-swarm:3.16                                                      |  swarm:3.15
+swarm:3.17                                                      |  swarm:3.15
 timestamper:1.9                                                    timestamper:1.9
 token-macro:2.7                                                    token-macro:2.7
 variant:1.2                                                        variant:1.2
