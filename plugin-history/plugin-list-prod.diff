@@ -100,7 +100,7 @@ pipeline-stage-view:2.11                                           pipeline-stag
 pipeline-utility-steps:2.3.0                                       pipeline-utility-steps:2.3.0
 plain-credentials:1.5                                              plain-credentials:1.5
 pubsub-light:1.12                                                  pubsub-light:1.12
-resource-disposer:0.12                                          |  resource-disposer:0.13
+resource-disposer:0.13                                             resource-disposer:0.13
 run-condition:1.2                                                  run-condition:1.2
 scm-api:2.6.3                                                      scm-api:2.6.3
 script-security:1.61                                               script-security:1.61
