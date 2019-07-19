@@ -45,6 +45,7 @@ RUN /usr/local/bin/install-plugins.sh \
   ssh-agent \
   swarm \
   timestamper \
+  view-job-filters \
   workflow-aggregator \
   ws-cleanup
 
