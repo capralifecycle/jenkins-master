@@ -112,6 +112,7 @@ swarm:3.17
 timestamper:1.10
 token-macro:2.8
 variant:1.2
+view-job-filters:2.1.1
 windows-slaves:1.4
 workflow-aggregator:2.6
 workflow-api:2.35

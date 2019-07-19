@@ -57,7 +57,7 @@ git-parameter:0.9.11                                               git-parameter
 git-server:1.7                                                     git-server:1.7
 git:3.10.1                                                         git:3.10.1
 github-api:1.95                                                    github-api:1.95
-github-branch-source:2.5.3                                         github-branch-source:2.5.3
+github-branch-source:2.5.3                                      |  github-branch-source:2.5.4
 github-oauth:0.32                                                  github-oauth:0.32
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.29.4                                                      github:1.29.4
@@ -114,6 +114,7 @@ swarm:3.17                                                         swarm:3.17
 timestamper:1.10                                                   timestamper:1.10
 token-macro:2.8                                                    token-macro:2.8
 variant:1.2                                                        variant:1.2
+view-job-filters:2.1.1                                             view-job-filters:2.1.1
 windows-slaves:1.4                                              |  windows-slaves:1.0
 workflow-aggregator:2.6                                            workflow-aggregator:2.6
 workflow-api:2.35                                                  workflow-api:2.35
