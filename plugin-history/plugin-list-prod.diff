@@ -43,19 +43,19 @@ credentials:2.3.0                                                  credentials:2
 display-url-api:2.3.2                                              display-url-api:2.3.2
 docker-commons:1.15                                                docker-commons:1.15
 docker-workflow:1.21                                               docker-workflow:1.21
-durable-task:1.31                                               |  durable-task:1.32
+durable-task:1.33                                               |  durable-task:1.32
 email-ext:2.68                                                     email-ext:2.68
 embeddable-build-status:2.0.2                                      embeddable-build-status:2.0.2
-envinject-api:1.6                                               |  envinject-api:1.7
-envinject:2.2.1                                                 |  envinject:2.3.0
+envinject-api:1.7                                                  envinject-api:1.7
+envinject:2.3.0                                                    envinject:2.3.0
 external-monitor-job:1.7                                        <
 favorite:2.3.2                                                     favorite:2.3.2
 findbugs:5.0.0                                                     findbugs:5.0.0
 ghprb:1.42.0                                                       ghprb:1.42.0
-git-client:2.9.0                                                   git-client:2.9.0
+git-client:3.0.0                                                |  git-client:2.9.0
 git-parameter:0.9.11                                               git-parameter:0.9.11
 git-server:1.8                                                     git-server:1.8
-git:3.12.1                                                         git:3.12.1
+git:4.0.0                                                       |  git:3.12.1
 github-api:1.95                                                    github-api:1.95
 github-branch-source:2.5.8                                         github-branch-source:2.5.8
 github-oauth:0.33                                                  github-oauth:0.33
@@ -74,8 +74,8 @@ jquery-detached:1.2.1                                              jquery-detach
 jquery:1.12.4-1                                                    jquery:1.12.4-1
 jsch:0.1.55.1                                                      jsch:0.1.55.1
 junit:1.28                                                         junit:1.28
-ldap:1.20                                                       <
-lockable-resources:2.6                                             lockable-resources:2.6
+ldap:1.20                                                       |  lockable-resources:2.6
+lockable-resources:2.7                                          <
 m2release:0.15.0                                                   m2release:0.15.0
 mailer:1.29                                                        mailer:1.29
 matrix-auth:2.5                                                    matrix-auth:2.5
@@ -89,13 +89,13 @@ pipeline-build-step:2.9                                            pipeline-buil
 pipeline-graph-analysis:1.10                                       pipeline-graph-analysis:1.10
 pipeline-input-step:2.11                                           pipeline-input-step:2.11
 pipeline-milestone-step:1.3.1                                      pipeline-milestone-step:1.3.1
-pipeline-model-api:1.3.9                                           pipeline-model-api:1.3.9
+pipeline-model-api:1.4.0                                        |  pipeline-model-api:1.3.9
 pipeline-model-declarative-agent:1.1.1                             pipeline-model-declarative-agent:1.1.1
-pipeline-model-definition:1.3.9                                    pipeline-model-definition:1.3.9
-pipeline-model-extensions:1.3.9                                    pipeline-model-extensions:1.3.9
+pipeline-model-definition:1.4.0                                 |  pipeline-model-definition:1.3.9
+pipeline-model-extensions:1.4.0                                 |  pipeline-model-extensions:1.3.9
 pipeline-rest-api:2.12                                             pipeline-rest-api:2.12
 pipeline-stage-step:2.3                                            pipeline-stage-step:2.3
-pipeline-stage-tags-metadata:1.3.9                                 pipeline-stage-tags-metadata:1.3.9
+pipeline-stage-tags-metadata:1.4.0                              |  pipeline-stage-tags-metadata:1.3.9
 pipeline-stage-view:2.12                                           pipeline-stage-view:2.12
 pipeline-utility-steps:2.3.1                                       pipeline-utility-steps:2.3.1
 plain-credentials:1.5                                              plain-credentials:1.5
@@ -121,9 +121,9 @@ workflow-aggregator:2.6                                            workflow-aggr
 workflow-api:2.37                                                  workflow-api:2.37
 workflow-basic-steps:2.18                                          workflow-basic-steps:2.18
 workflow-cps-global-lib:2.15                                       workflow-cps-global-lib:2.15
-workflow-cps:2.74                                                  workflow-cps:2.74
-workflow-durable-task-step:2.34                                    workflow-durable-task-step:2.34
-workflow-job:2.35                                                  workflow-job:2.35
+workflow-cps:2.75                                               |  workflow-cps:2.74
+workflow-durable-task-step:2.35                                 |  workflow-durable-task-step:2.34
+workflow-job:2.36                                               |  workflow-job:2.35
 workflow-multibranch:2.21                                          workflow-multibranch:2.21
 workflow-scm-step:2.9                                              workflow-scm-step:2.9
 workflow-step-api:2.20                                             workflow-step-api:2.20
