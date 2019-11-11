@@ -9,6 +9,7 @@ FROM jenkins/jenkins:lts-alpine@sha256:78c38ba124dcf2580c51a421948ed4c99858974b5
 RUN /usr/local/bin/install-plugins.sh \
   ansicolor \
   authorize-project \
+  basic-branch-build-strategies \
   blueocean \
   build-monitor-plugin \
   config-file-provider \
