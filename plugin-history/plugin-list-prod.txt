@@ -50,10 +50,10 @@ external-monitor-job:1.7
 favorite:2.3.2
 findbugs:5.0.0
 ghprb:1.42.0
-git-client:3.0.0
+git-client:3.1.1
 git-parameter:0.9.11
 git-server:1.9
-git:4.0.0
+git:4.1.1
 github-api:1.95
 github-branch-source:2.5.8
 github-oauth:0.33
@@ -95,7 +95,7 @@ pipeline-rest-api:2.12
 pipeline-stage-step:2.3
 pipeline-stage-tags-metadata:1.5.0
 pipeline-stage-view:2.12
-pipeline-utility-steps:2.3.1
+pipeline-utility-steps:2.4.0
 plain-credentials:1.5
 pubsub-light:1.13
 resource-disposer:0.14
@@ -123,7 +123,7 @@ workflow-cps:2.78
 workflow-durable-task-step:2.35
 workflow-job:2.36
 workflow-multibranch:2.21
-workflow-scm-step:2.9
+workflow-scm-step:2.10
 workflow-step-api:2.22
-workflow-support:3.3
+workflow-support:3.4
 ws-cleanup:0.38
