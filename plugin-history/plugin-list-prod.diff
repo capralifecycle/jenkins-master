@@ -52,10 +52,10 @@ external-monitor-job:1.7                                        <
 favorite:2.3.2                                                     favorite:2.3.2
 findbugs:5.0.0                                                     findbugs:5.0.0
 ghprb:1.42.0                                                       ghprb:1.42.0
-git-client:3.1.1                                                   git-client:3.1.1
+git-client:3.1.1                                                |  git-client:3.2.0
 git-parameter:0.9.12                                               git-parameter:0.9.12
 git-server:1.9                                                     git-server:1.9
-git:4.1.1                                                          git:4.1.1
+git:4.1.1                                                       |  git:4.2.0
 github-api:1.106                                                   github-api:1.106
 github-branch-source:2.6.0                                         github-branch-source:2.6.0
 github-oauth:0.33                                                  github-oauth:0.33
@@ -111,8 +111,8 @@ ssh-agent:1.19                                                     ssh-agent:1.1
 ssh-credentials:1.18.1                                             ssh-credentials:1.18.1
 structs:1.20                                                       structs:1.20
 swarm:3.18                                                         swarm:3.18
-timestamper:1.10                                                |  timestamper:1.11
-token-macro:2.10                                                |  token-macro:2.11
+timestamper:1.10                                                |  timestamper:1.11.1
+token-macro:2.10                                                |  token-macro:2.12
 trilead-api:1.0.5                                                  trilead-api:1.0.5
 variant:1.3                                                        variant:1.3
 view-job-filters:2.1.1                                             view-job-filters:2.1.1
