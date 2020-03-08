@@ -63,7 +63,7 @@ jackson2-api:2.10.2
 javadoc:1.5
 jdk-tool:1.0
 jenkins-design-language:1.22.0
-jira:3.0.12
+jira:3.0.13
 job-dsl:1.76
 jquery-detached:1.2.1
 jquery:1.12.4-1
@@ -97,7 +97,7 @@ resource-disposer:0.14
 run-condition:1.2
 scm-api:2.6.3
 script-security:1.70
-slack:2.36
+slack:2.37
 sonar:2.11
 sse-gateway:1.22
 ssh-agent:1.19
