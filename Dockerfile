@@ -40,6 +40,7 @@ RUN /usr/local/bin/install-plugins.sh \
   pipeline-stage-view \
   # Provides readMavenPom()
   pipeline-utility-steps \
+  role-strategy \
   slack \
   sonar \
   ssh-agent \
