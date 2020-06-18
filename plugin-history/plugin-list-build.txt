@@ -30,12 +30,12 @@ bouncycastle-api:2.18
 branch-api:2.5.6
 build-monitor-plugin:1.12+build.201809061734
 cloudbees-bitbucket-branch-source:2.8.0
-cloudbees-folder:6.13
+cloudbees-folder:6.14
 command-launcher:1.2
 conditional-buildstep:1.3.6
 config-file-provider:3.6.3
 credentials-binding:1.23
-credentials:2.3.7
+credentials:2.3.9
 display-url-api:2.3.2
 docker-commons:1.16
 docker-workflow:1.23
@@ -52,8 +52,8 @@ git-client:3.2.1
 git-parameter:0.9.12
 git-server:1.9
 git:4.2.2
-github-api:1.112.0
-github-branch-source:2.8.0
+github-api:1.114.2
+github-branch-source:2.8.2
 github-oauth:0.33
 github-scm-trait-notification-context:1.1
 github:1.30.0
@@ -64,7 +64,7 @@ jackson2-api:2.11.0
 javadoc:1.5
 jdk-tool:1.0
 jenkins-design-language:1.23.2
-jira:3.0.18
+jira:3.1.1
 job-dsl:1.77
 jquery-detached:1.2.1
 jquery:1.12.4-1
@@ -74,10 +74,11 @@ lockable-resources:2.8
 m2release:0.16.2
 mailer:1.32
 matrix-auth:2.6.1
-matrix-project:1.14
+matrix-project:1.16
 maven-plugin:3.6
 mercurial:2.10
 momentjs:1.1.1
+okhttp-api:3.12.12.2
 parameterized-trigger:2.36
 pipeline-build-step:2.12
 pipeline-graph-analysis:1.10
@@ -109,7 +110,7 @@ timestamper:1.11.3
 token-macro:2.12
 trilead-api:1.0.8
 variant:1.3
-view-job-filters:2.2
+view-job-filters:2.3
 workflow-aggregator:2.6
 workflow-api:2.40
 workflow-basic-steps:2.20
@@ -120,5 +121,5 @@ workflow-job:2.39
 workflow-multibranch:2.21
 workflow-scm-step:2.11
 workflow-step-api:2.22
-workflow-support:3.4
+workflow-support:3.5
 ws-cleanup:0.38
