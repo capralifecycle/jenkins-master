@@ -1,7 +1,7 @@
 # see https://github.com/jenkinsci/docker
 # and https://hub.docker.com/r/jenkins/jenkins/tags/
 
-FROM jenkins/jenkins:lts-alpine@sha256:0e04ba7a49b45b213037a4ebc02d8930186c4ce4a0a357b6921b1ee92b9607b8
+FROM jenkins/jenkins:lts-alpine@sha256:23a1af3ff04e8ede472ed934c8c728ec235c1b3d4eb04eb87179fddcfb3f7d9b
 
 # For information about a plugin, go to:
 # https://plugins.jenkins.io/NAMEOFPLUGIN
