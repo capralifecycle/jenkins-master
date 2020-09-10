@@ -1,10 +1,9 @@
 jenkins.capra.tv                                                   build-from-source
 ----------------                                                   -----------------
 ace-editor:1.1                                                     ace-editor:1.1
-analysis-core:1.96                                                 analysis-core:1.96
 ansicolor:0.7.2                                                    ansicolor:0.7.2
 ant:1.11                                                        <
-antisamy-markup-formatter:2.1                                      antisamy-markup-formatter:2.1
+antisamy-markup-formatter:2.1                                   <
 apache-httpcomponents-client-4-api:4.5.10-2.0                      apache-httpcomponents-client-4-api:4.5.10-2.0
 authentication-tokens:1.4                                          authentication-tokens:1.4
 authorize-project:1.3.0                                            authorize-project:1.3.0
@@ -31,7 +30,7 @@ blueocean-rest:1.23.2                                              blueocean-res
 blueocean-web:1.23.2                                               blueocean-web:1.23.2
 blueocean:1.23.2                                                   blueocean:1.23.2
 bouncycastle-api:2.18                                              bouncycastle-api:2.18
-branch-api:2.5.9                                                |  branch-api:2.6.0
+branch-api:2.6.0                                                   branch-api:2.6.0
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
 cloudbees-bitbucket-branch-source:2.9.2                            cloudbees-bitbucket-branch-source:2.9.2
 cloudbees-folder:6.14                                              cloudbees-folder:6.14
@@ -39,11 +38,11 @@ command-launcher:1.4                                            |  command-launc
 conditional-buildstep:1.3.6                                        conditional-buildstep:1.3.6
 config-file-provider:3.6.3                                         config-file-provider:3.6.3
 credentials-binding:1.23                                           credentials-binding:1.23
-credentials:2.3.12                                              |  credentials:2.3.13
+credentials:2.3.13                                                 credentials:2.3.13
 display-url-api:2.3.3                                              display-url-api:2.3.3
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.24                                               docker-workflow:1.24
-durable-task:1.34                                               |  durable-task:1.35
+durable-task:1.35                                                  durable-task:1.35
 echarts-api:4.8.0-2                                                echarts-api:4.8.0-2
 email-ext:2.75                                                     email-ext:2.75
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
@@ -52,14 +51,13 @@ envinject:2.3.0                                                    envinject:2.3
 extended-read-permission:3.2                                       extended-read-permission:3.2
 external-monitor-job:1.7                                        <
 favorite:2.3.2                                                     favorite:2.3.2
-findbugs:5.0.0                                                     findbugs:5.0.0
 ghprb:1.42.1                                                       ghprb:1.42.1
 git-client:3.4.2                                                   git-client:3.4.2
-git-parameter:0.9.12                                            |  git-parameter:0.9.13
+git-parameter:0.9.13                                               git-parameter:0.9.13
 git-server:1.9                                                     git-server:1.9
 git:4.4.1                                                          git:4.4.1
-github-api:1.115                                                |  github-api:1.116
-github-branch-source:2.8.3                                      |  github-branch-source:2.9.0
+github-api:1.116                                                   github-api:1.116
+github-branch-source:2.9.0                                         github-branch-source:2.9.0
 github-oauth:0.33                                                  github-oauth:0.33
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.31.0                                                      github:1.31.0
@@ -76,7 +74,7 @@ jquery-detached:1.2.1                                              jquery-detach
 jquery3-api:3.5.1-1                                                jquery3-api:3.5.1-1
 jquery:1.12.4-1                                                    jquery:1.12.4-1
 jsch:0.1.55.2                                                      jsch:0.1.55.2
-junit:1.32                                                      |  junit:1.34
+junit:1.34                                                         junit:1.34
 ldap:1.24                                                       <
 lockable-resources:2.8                                             lockable-resources:2.8
 m2release:0.16.2                                                   m2release:0.16.2
@@ -87,20 +85,19 @@ maven-plugin:3.7                                                   maven-plugin:
 mercurial:2.10                                                     mercurial:2.10
 momentjs:1.1.1                                                     momentjs:1.1.1
 okhttp-api:3.14.9                                                  okhttp-api:3.14.9
-pam-auth:1.6                                                    |  parameterized-trigger:2.38
-parameterized-trigger:2.37                                      <
+pam-auth:1.6                                                    <
+parameterized-trigger:2.38                                         parameterized-trigger:2.38
 pipeline-build-step:2.13                                           pipeline-build-step:2.13
 pipeline-graph-analysis:1.10                                       pipeline-graph-analysis:1.10
 pipeline-input-step:2.12                                           pipeline-input-step:2.12
 pipeline-milestone-step:1.3.1                                      pipeline-milestone-step:1.3.1
 pipeline-model-api:1.7.2                                           pipeline-model-api:1.7.2
-pipeline-model-declarative-agent:1.1.1                          <
 pipeline-model-definition:1.7.2                                    pipeline-model-definition:1.7.2
 pipeline-model-extensions:1.7.2                                    pipeline-model-extensions:1.7.2
-pipeline-rest-api:2.14                                          |  pipeline-rest-api:2.15
+pipeline-rest-api:2.15                                             pipeline-rest-api:2.15
 pipeline-stage-step:2.5                                            pipeline-stage-step:2.5
 pipeline-stage-tags-metadata:1.7.2                                 pipeline-stage-tags-metadata:1.7.2
-pipeline-stage-view:2.14                                        |  pipeline-stage-view:2.15
+pipeline-stage-view:2.15                                           pipeline-stage-view:2.15
 pipeline-utility-steps:2.6.1                                       pipeline-utility-steps:2.6.1
 plain-credentials:1.7                                              plain-credentials:1.7
 plot:2.1.8                                                         plot:2.1.8
@@ -111,17 +108,17 @@ role-strategy:3.0                                                  role-strategy
 run-condition:1.3                                                  run-condition:1.3
 scm-api:2.6.3                                                      scm-api:2.6.3
 script-security:1.74                                               script-security:1.74
-slack:2.41                                                      |  slack:2.42
+slack:2.42                                                         slack:2.42
 snakeyaml-api:1.26.4                                               snakeyaml-api:1.26.4
-sonar:2.11                                                      |  sonar:2.12
+sonar:2.12                                                         sonar:2.12
 sse-gateway:1.23                                                   sse-gateway:1.23
 ssh-agent:1.20                                                     ssh-agent:1.20
 ssh-credentials:1.18.1                                             ssh-credentials:1.18.1
 structs:1.20                                                       structs:1.20
-swarm:3.22                                                      |  swarm:3.23
+swarm:3.23                                                         swarm:3.23
 timestamper:1.11.5                                                 timestamper:1.11.5
 token-macro:2.12                                                   token-macro:2.12
-trilead-api:1.0.8                                               |  trilead-api:1.0.10
+trilead-api:1.0.10                                                 trilead-api:1.0.10
 variant:1.3                                                        variant:1.3
 view-job-filters:2.3                                               view-job-filters:2.3
 windows-slaves:1.6                                              <
@@ -129,9 +126,9 @@ workflow-aggregator:2.6                                            workflow-aggr
 workflow-api:2.40                                                  workflow-api:2.40
 workflow-basic-steps:2.20                                          workflow-basic-steps:2.20
 workflow-cps-global-lib:2.17                                       workflow-cps-global-lib:2.17
-workflow-cps:2.82                                               |  workflow-cps:2.83
+workflow-cps:2.83                                                  workflow-cps:2.83
 workflow-durable-task-step:2.35                                 |  workflow-durable-task-step:2.36
-workflow-job:2.39                                               |  workflow-job:2.40
+workflow-job:2.40                                                  workflow-job:2.40
 workflow-multibranch:2.22                                          workflow-multibranch:2.22
 workflow-scm-step:2.11                                             workflow-scm-step:2.11
 workflow-step-api:2.22                                             workflow-step-api:2.22
