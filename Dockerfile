@@ -18,7 +18,6 @@ RUN /usr/local/bin/install-plugins.sh \
   email-ext \
   # Needed for mavenJob { environmentVariables } in job DSL
   envinject \
-  findbugs \
   # Used with githubPullRequest job DSL step
   ghprb \
   git \
