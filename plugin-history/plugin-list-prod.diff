@@ -1,94 +1,94 @@
 jenkins.capra.tv                                                   build-from-source
 ----------------                                                   -----------------
 ace-editor:1.1                                                     ace-editor:1.1
-ansicolor:0.7.3                                                 |  ansicolor:0.7.2
+ansicolor:0.7.3                                                    ansicolor:0.7.3
 ant:1.11                                                        <
 antisamy-markup-formatter:2.1                                   <
 apache-httpcomponents-client-4-api:4.5.10-2.0                      apache-httpcomponents-client-4-api:4.5.10-2.0
 authentication-tokens:1.4                                          authentication-tokens:1.4
 authorize-project:1.3.0                                            authorize-project:1.3.0
 blueocean-autofavorite:1.2.4                                       blueocean-autofavorite:1.2.4
-blueocean-bitbucket-pipeline:1.24.0                             |  blueocean-bitbucket-pipeline:1.23.2
-blueocean-commons:1.24.0                                        |  blueocean-commons:1.23.2
-blueocean-config:1.24.0                                         |  blueocean-config:1.23.2
-blueocean-core-js:1.24.0                                        |  blueocean-core-js:1.23.2
-blueocean-dashboard:1.24.0                                      |  blueocean-dashboard:1.23.2
+blueocean-bitbucket-pipeline:1.24.0                             |  blueocean-bitbucket-pipeline:1.24.1
+blueocean-commons:1.24.0                                        |  blueocean-commons:1.24.1
+blueocean-config:1.24.0                                         |  blueocean-config:1.24.1
+blueocean-core-js:1.24.0                                        |  blueocean-core-js:1.24.1
+blueocean-dashboard:1.24.0                                      |  blueocean-dashboard:1.24.1
 blueocean-display-url:2.4.0                                        blueocean-display-url:2.4.0
-blueocean-events:1.24.0                                         |  blueocean-events:1.23.2
-blueocean-executor-info:1.24.0                                  |  blueocean-git-pipeline:1.23.2
-blueocean-git-pipeline:1.24.0                                   |  blueocean-github-pipeline:1.23.2
-blueocean-github-pipeline:1.24.0                                |  blueocean-i18n:1.23.2
-blueocean-i18n:1.24.0                                           |  blueocean-jira:1.23.2
-blueocean-jira:1.24.0                                           |  blueocean-jwt:1.23.2
-blueocean-jwt:1.24.0                                            |  blueocean-personalization:1.23.2
-blueocean-personalization:1.24.0                                |  blueocean-pipeline-api-impl:1.23.2
-blueocean-pipeline-api-impl:1.24.0                              |  blueocean-pipeline-editor:1.23.2
-blueocean-pipeline-editor:1.24.0                                |  blueocean-pipeline-scm-api:1.23.2
-blueocean-pipeline-scm-api:1.24.0                               |  blueocean-rest-impl:1.23.2
-blueocean-rest-impl:1.24.0                                      |  blueocean-rest:1.23.2
-blueocean-rest:1.24.0                                           |  blueocean-web:1.23.2
-blueocean-web:1.24.0                                            |  blueocean:1.23.2
+blueocean-events:1.24.0                                         |  blueocean-events:1.24.1
+blueocean-executor-info:1.24.0                                  |  blueocean-git-pipeline:1.24.1
+blueocean-git-pipeline:1.24.0                                   |  blueocean-github-pipeline:1.24.1
+blueocean-github-pipeline:1.24.0                                |  blueocean-i18n:1.24.1
+blueocean-i18n:1.24.0                                           |  blueocean-jira:1.24.1
+blueocean-jira:1.24.0                                           |  blueocean-jwt:1.24.1
+blueocean-jwt:1.24.0                                            |  blueocean-personalization:1.24.1
+blueocean-personalization:1.24.0                                |  blueocean-pipeline-api-impl:1.24.1
+blueocean-pipeline-api-impl:1.24.0                              |  blueocean-pipeline-editor:1.24.1
+blueocean-pipeline-editor:1.24.0                                |  blueocean-pipeline-scm-api:1.24.1
+blueocean-pipeline-scm-api:1.24.0                               |  blueocean-rest-impl:1.24.1
+blueocean-rest-impl:1.24.0                                      |  blueocean-rest:1.24.1
+blueocean-rest:1.24.0                                           |  blueocean-web:1.24.1
+blueocean-web:1.24.0                                            |  blueocean:1.24.1
 blueocean:1.24.0                                                <
-bootstrap4-api:4.5.2-1                                          <
+bootstrap4-api:4.5.2-1                                             bootstrap4-api:4.5.2-1
 bouncycastle-api:2.18                                              bouncycastle-api:2.18
 branch-api:2.6.0                                                   branch-api:2.6.0
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
-cloudbees-bitbucket-branch-source:2.9.3                         |  cloudbees-bitbucket-branch-source:2.9.2
+cloudbees-bitbucket-branch-source:2.9.3                         |  cloudbees-bitbucket-branch-source:2.9.4
 cloudbees-folder:6.14                                              cloudbees-folder:6.14
 command-launcher:1.4                                            |  command-launcher:1.2
 conditional-buildstep:1.3.6                                        conditional-buildstep:1.3.6
-config-file-provider:3.7.0                                      |  config-file-provider:3.6.3
+config-file-provider:3.7.0                                         config-file-provider:3.7.0
 credentials-binding:1.23                                           credentials-binding:1.23
 credentials:2.3.13                                                 credentials:2.3.13
 display-url-api:2.3.3                                              display-url-api:2.3.3
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.24                                               docker-workflow:1.24
 durable-task:1.35                                                  durable-task:1.35
-echarts-api:4.9.0-1                                             |  echarts-api:4.8.0-2
-email-ext:2.77                                                  |  email-ext:2.75
+echarts-api:4.9.0-1                                                echarts-api:4.9.0-1
+email-ext:2.77                                                     email-ext:2.77
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
 envinject-api:1.7                                                  envinject-api:1.7
 envinject:2.3.0                                                    envinject:2.3.0
-extended-read-permission:3.2                                       extended-read-permission:3.2
+extended-read-permission:3.2                                    <
 external-monitor-job:1.7                                        <
 favorite:2.3.2                                                     favorite:2.3.2
-font-awesome-api:5.14.0-1                                       <
+font-awesome-api:5.14.0-1                                          font-awesome-api:5.14.0-1
 ghprb:1.42.1                                                       ghprb:1.42.1
-git-client:3.5.0                                                |  git-client:3.4.2
+git-client:3.5.0                                                |  git-client:3.5.1
 git-parameter:0.9.13                                               git-parameter:0.9.13
 git-server:1.9                                                     git-server:1.9
-git:4.4.3                                                       |  git:4.4.1
+git:4.4.3                                                       |  git:4.4.4
 github-api:1.116                                                   github-api:1.116
-github-branch-source:2.9.0                                         github-branch-source:2.9.0
+github-branch-source:2.9.0                                      |  github-branch-source:2.9.1
 github-oauth:0.33                                                  github-oauth:0.33
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.31.0                                                      github:1.31.0
 handlebars:1.1.1                                                   handlebars:1.1.1
 handy-uri-templates-2-api:2.1.8-1.0                                handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.23                                                 htmlpublisher:1.23
-jackson2-api:2.11.2                                                jackson2-api:2.11.2
+jackson2-api:2.11.2                                             |  jackson2-api:2.11.3
 javadoc:1.6                                                        javadoc:1.6
 jdk-tool:1.4                                                    |  jdk-tool:1.0
-jenkins-design-language:1.24.0                                  |  jenkins-design-language:1.23.2
+jenkins-design-language:1.24.0                                  |  jenkins-design-language:1.24.1
 jira:3.1.1                                                         jira:3.1.1
 job-dsl:1.77                                                       job-dsl:1.77
 jquery-detached:1.2.1                                              jquery-detached:1.2.1
 jquery3-api:3.5.1-1                                                jquery3-api:3.5.1-1
 jquery:1.12.4-1                                                    jquery:1.12.4-1
 jsch:0.1.55.2                                                      jsch:0.1.55.2
-junit:1.36                                                      |  junit:1.34
-ldap:1.26                                                       |  lockable-resources:2.8
+junit:1.36                                                      |  junit:1.37
+ldap:1.26                                                       |  lockable-resources:2.10
 lockable-resources:2.9                                          <
 m2release:0.16.2                                                   m2release:0.16.2
-mailer:1.32.1                                                   |  mailer:1.32
-matrix-auth:2.6.3                                               |  matrix-auth:2.6.2
-matrix-project:1.17                                                matrix-project:1.17
+mailer:1.32.1                                                      mailer:1.32.1
+matrix-auth:2.6.3                                                  matrix-auth:2.6.3
+matrix-project:1.17                                             |  matrix-project:1.18
 maven-plugin:3.7                                                   maven-plugin:3.7
 mercurial:2.10                                                     mercurial:2.10
 momentjs:1.1.1                                                     momentjs:1.1.1
 okhttp-api:3.14.9                                                  okhttp-api:3.14.9
-pam-auth:1.6                                                    |  parameterized-trigger:2.38
-parameterized-trigger:2.39                                      <
+pam-auth:1.6                                                    <
+parameterized-trigger:2.39                                         parameterized-trigger:2.39
 pipeline-build-step:2.13                                           pipeline-build-step:2.13
 pipeline-graph-analysis:1.10                                       pipeline-graph-analysis:1.10
 pipeline-input-step:2.12                                           pipeline-input-step:2.12
@@ -96,23 +96,23 @@ pipeline-milestone-step:1.3.1                                      pipeline-mile
 pipeline-model-api:1.7.2                                           pipeline-model-api:1.7.2
 pipeline-model-definition:1.7.2                                    pipeline-model-definition:1.7.2
 pipeline-model-extensions:1.7.2                                    pipeline-model-extensions:1.7.2
-pipeline-rest-api:2.15                                             pipeline-rest-api:2.15
+pipeline-rest-api:2.15                                          |  pipeline-rest-api:2.16
 pipeline-stage-step:2.5                                            pipeline-stage-step:2.5
 pipeline-stage-tags-metadata:1.7.2                                 pipeline-stage-tags-metadata:1.7.2
-pipeline-stage-view:2.15                                           pipeline-stage-view:2.15
+pipeline-stage-view:2.15                                        |  pipeline-stage-view:2.16
 pipeline-utility-steps:2.6.1                                       pipeline-utility-steps:2.6.1
 plain-credentials:1.7                                              plain-credentials:1.7
 plot:2.1.8                                                         plot:2.1.8
 plugin-util-api:1.2.5                                              plugin-util-api:1.2.5
-popper-api:1.16.0-6                                             <
+popper-api:1.16.0-6                                                popper-api:1.16.0-6
 pubsub-light:1.13                                                  pubsub-light:1.13
 resource-disposer:0.14                                             resource-disposer:0.14
-role-strategy:3.0                                                  role-strategy:3.0
+role-strategy:3.0                                               |  role-strategy:3.1
 run-condition:1.3                                                  run-condition:1.3
-scm-api:2.6.3                                                      scm-api:2.6.3
-script-security:1.75                                            |  script-security:1.74
+scm-api:2.6.3                                                   |  scm-api:2.6.4
+script-security:1.75                                               script-security:1.75
 slack:2.42                                                         slack:2.42
-snakeyaml-api:1.27.0                                            |  snakeyaml-api:1.26.4
+snakeyaml-api:1.27.0                                               snakeyaml-api:1.27.0
 sonar:2.12                                                         sonar:2.12
 sse-gateway:1.23                                                   sse-gateway:1.23
 ssh-agent:1.20                                                     ssh-agent:1.20
@@ -121,13 +121,13 @@ structs:1.20                                                       structs:1.20
 swarm:3.23                                                         swarm:3.23
 timestamper:1.11.5                                                 timestamper:1.11.5
 token-macro:2.12                                                   token-macro:2.12
-trilead-api:1.0.10                                                 trilead-api:1.0.10
+trilead-api:1.0.10                                              |  trilead-api:1.0.11
 variant:1.3                                                        variant:1.3
 view-job-filters:2.3                                               view-job-filters:2.3
 windows-slaves:1.6                                              <
 workflow-aggregator:2.6                                            workflow-aggregator:2.6
 workflow-api:2.40                                                  workflow-api:2.40
-workflow-basic-steps:2.21                                       |  workflow-basic-steps:2.20
+workflow-basic-steps:2.21                                          workflow-basic-steps:2.21
 workflow-cps-global-lib:2.17                                       workflow-cps-global-lib:2.17
 workflow-cps:2.83                                                  workflow-cps:2.83
 workflow-durable-task-step:2.36                                    workflow-durable-task-step:2.36
