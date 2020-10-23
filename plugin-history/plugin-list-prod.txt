@@ -27,11 +27,11 @@ blueocean-rest-impl:1.24.1
 blueocean-rest:1.24.1
 blueocean-web:1.24.1
 blueocean:1.24.1
-bootstrap4-api:4.5.2-1
+bootstrap4-api:4.5.3-1
 bouncycastle-api:2.18
 branch-api:2.6.0
 build-monitor-plugin:1.12+build.201809061734
-checks-api:1.0.2
+checks-api:1.0.3
 cloudbees-bitbucket-branch-source:2.9.4
 cloudbees-folder:6.14
 command-launcher:1.4
@@ -75,7 +75,7 @@ jquery-detached:1.2.1
 jquery3-api:3.5.1-2
 jquery:1.12.4-1
 jsch:0.1.55.2
-junit:1.39
+junit:1.41
 ldap:1.26
 lockable-resources:2.10
 m2release:0.16.2
@@ -103,7 +103,7 @@ pipeline-utility-steps:2.6.1
 plain-credentials:1.7
 plot:2.1.8
 plugin-util-api:1.4.0
-popper-api:1.16.0-6
+popper-api:1.16.0-7
 pubsub-light:1.13
 resource-disposer:0.14
 role-strategy:3.1
