@@ -94,7 +94,8 @@ buildConfig([
 
       // Do not commit anything on branches belonging to renovate, as it
       // will cause two bots to force-push over each other.
-      if (!env.BRANCH_NAME.startsWith('renovate/')) {
+      // Also exclude PR builds since we cannot push back.
+      if (!env.BRANCH_NAME.startsWith('renovate/') && !env.CHANGE_ID) {
         stage('Commit and push any plugin changes') {
           if (currentBuild.result == 'UNSTABLE') {
             println 'Build is unstable - skipping'
