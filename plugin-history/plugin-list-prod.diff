@@ -45,7 +45,7 @@ docker-commons:1.17                                                docker-common
 docker-workflow:1.25                                               docker-workflow:1.25
 durable-task:1.35                                                  durable-task:1.35
 echarts-api:4.9.0-2                                                echarts-api:4.9.0-2
-email-ext:2.80                                                  |  email-ext:2.81
+email-ext:2.81                                                     email-ext:2.81
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
 envinject-api:1.7                                                  envinject-api:1.7
 envinject:2.3.0                                                    envinject:2.3.0
@@ -57,7 +57,7 @@ ghprb:1.42.1                                                       ghprb:1.42.1
 git-client:3.6.0                                                   git-client:3.6.0
 git-parameter:0.9.13                                               git-parameter:0.9.13
 git-server:1.9                                                     git-server:1.9
-git:4.5.1                                                       |  git:4.5.2
+git:4.5.2                                                          git:4.5.2
 github-api:1.117                                                   github-api:1.117
 github-branch-source:2.9.3                                         github-branch-source:2.9.3
 github-oauth:0.33                                                  github-oauth:0.33
@@ -66,7 +66,7 @@ github:1.32.0                                                      github:1.32.0
 handlebars:1.1.1                                                   handlebars:1.1.1
 handy-uri-templates-2-api:2.1.8-1.0                                handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.25                                                 htmlpublisher:1.25
-jackson2-api:2.12.0                                             |  jackson2-api:2.12.1
+jackson2-api:2.12.1                                                jackson2-api:2.12.1
 javadoc:1.6                                                        javadoc:1.6
 jdk-tool:1.4                                                    |  jdk-tool:1.0
 jenkins-design-language:1.24.3                                     jenkins-design-language:1.24.3
@@ -122,12 +122,12 @@ swarm:3.24                                                         swarm:3.24
 timestamper:1.11.8                                                 timestamper:1.11.8
 token-macro:2.13                                                   token-macro:2.13
 trilead-api:1.0.13                                                 trilead-api:1.0.13
-variant:1.3                                                     |  variant:1.4
+variant:1.4                                                        variant:1.4
 view-job-filters:2.3                                               view-job-filters:2.3
 windows-slaves:1.7                                              <
 workflow-aggregator:2.6                                            workflow-aggregator:2.6
 workflow-api:2.40                                                  workflow-api:2.40
-workflow-basic-steps:2.22                                       |  workflow-basic-steps:2.23
+workflow-basic-steps:2.23                                          workflow-basic-steps:2.23
 workflow-cps-global-lib:2.17                                       workflow-cps-global-lib:2.17
 workflow-cps:2.87                                                  workflow-cps:2.87
 workflow-durable-task-step:2.37                                    workflow-durable-task-step:2.37
