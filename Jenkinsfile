@@ -18,6 +18,13 @@ def jobProperties = [
   ]),
 ]
 
+if (env.BRANCH_NAME == 'master') {
+  jobProperties << pipelineTriggers([
+    // Build a new version every night so we keep up to date with upstream changes
+    cron('H H(2-6) * * *'),
+  ])
+}
+
 buildConfig([
   jobProperties: jobProperties,
   slack: [
@@ -43,7 +50,8 @@ buildConfig([
         if (params.docker_skip_cache) {
           args = " --no-cache"
         }
-        img = docker.build(dockerImageName, "--cache-from $lastImageId$args --pull .")
+        def pluginTimestamp = new Date().format("y-w", TimeZone.getTimeZone("UTC"))
+        img = docker.build(dockerImageName, "--cache-from $lastImageId$args --pull --build-arg PLUGIN_TIMESTAMP=$pluginTimestamp .")
       }
 
       def isSameImage = dockerPushCacheImage(img, lastImageId)

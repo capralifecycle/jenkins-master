@@ -3,6 +3,10 @@
 
 FROM jenkins/jenkins:lts-alpine@sha256:b2f3dd63864733a389a6d14588f77c9c534c8d1ba379b184f61944cb864e1546
 
+# A variable that can be used to invalidate the plugin installation
+# forcing new plugins to be fetched.
+ARG PLUGIN_TIMESTAMP
+
 # For information about a plugin, go to:
 # https://plugins.jenkins.io/NAMEOFPLUGIN
 
