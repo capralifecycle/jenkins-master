@@ -53,7 +53,3 @@ RUN /usr/local/bin/install-plugins.sh \
 # Try to force plugins to be updated with newer version from this image
 # when running against an existing installation
 ENV TRY_UPGRADE_IF_NO_MARKER=true
-
-# Remove banner prompting to install additional plugins when run against
-# a fresh installation
-RUN echo 2.0 > /usr/share/jenkins/ref/jenkins.install.UpgradeWizard.state
