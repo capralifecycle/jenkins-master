@@ -18,13 +18,6 @@ def jobProperties = [
   ]),
 ]
 
-if (env.BRANCH_NAME == 'master') {
-  jobProperties << pipelineTriggers([
-    // Build a new version every night so we keep up to date with upstream changes
-    cron('H H(2-6) * * *'),
-  ])
-}
-
 buildConfig([
   jobProperties: jobProperties,
   slack: [
