@@ -6,7 +6,7 @@ FROM jenkins/jenkins:lts-alpine@sha256:b2f3dd63864733a389a6d14588f77c9c534c8d1ba
 # For information about a plugin, go to:
 # https://plugins.jenkins.io/NAMEOFPLUGIN
 
-RUN /usr/local/bin/install-plugins.sh \
+RUN jenkins-plugin-cli --verbose --plugins \
   ansicolor \
   authorize-project \
   blueocean \
