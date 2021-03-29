@@ -56,8 +56,9 @@ buildConfig([
       def isSameImage = dockerPushCacheImage(img, lastImageId)
 
       stage('Verify build and extract list of installed plugins') {
-        buildImg.inside {
-          sh "./ci/test-and-extract-data.sh ${img.id}"
+        insideToolImage("node:14") {
+          sh "npm ci"
+          sh "npm run test-image -- ${img.id}"
         }
       }
 
