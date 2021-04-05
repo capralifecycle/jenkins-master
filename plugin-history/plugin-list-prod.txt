@@ -68,7 +68,7 @@ jackson2-api:2.12.1
 javadoc:1.6
 jdk-tool:1.5
 jenkins-design-language:1.24.5
-jira:3.2
+jira:3.2.1
 jjwt-api:0.11.2-9.c8b45b8bb173
 job-dsl:1.77
 jquery-detached:1.2.1
