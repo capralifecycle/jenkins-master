@@ -43,7 +43,7 @@ buildConfig([
         if (params.docker_skip_cache) {
           args = " --no-cache"
         }
-        img = docker.build(dockerImageName, "--cache-from $lastImageId$args --pull .")
+        img = docker.build(dockerImageName, "--cache-from $lastImageId$args .")
       }
 
       def isSameImage = dockerPushCacheImage(img, lastImageId)
@@ -154,7 +154,7 @@ def prepareBuildImage(dockerBuildImageName) {
   def lastBuildImageId = dockerPullCacheImage(dockerBuildImageName)
 
   stage('Build Docker image (for build)') {
-    buildImg = docker.build(dockerBuildImageName, "--cache-from $lastBuildImageId --pull -f builder.Dockerfile .")
+    buildImg = docker.build(dockerBuildImageName, "--cache-from $lastBuildImageId -f builder.Dockerfile .")
   }
 
   dockerPushCacheImage(buildImg, lastBuildImageId)
