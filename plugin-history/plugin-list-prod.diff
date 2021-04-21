@@ -8,38 +8,38 @@ apache-httpcomponents-client-4-api:4.5.13-1.0                      apache-httpco
 authentication-tokens:1.4                                          authentication-tokens:1.4
 authorize-project:1.4.0                                            authorize-project:1.4.0
 blueocean-autofavorite:1.2.4                                       blueocean-autofavorite:1.2.4
-blueocean-bitbucket-pipeline:1.24.5                                blueocean-bitbucket-pipeline:1.24.5
-blueocean-commons:1.24.5                                           blueocean-commons:1.24.5
-blueocean-config:1.24.5                                            blueocean-config:1.24.5
-blueocean-core-js:1.24.5                                           blueocean-core-js:1.24.5
-blueocean-dashboard:1.24.5                                         blueocean-dashboard:1.24.5
+blueocean-bitbucket-pipeline:1.24.5                             |  blueocean-bitbucket-pipeline:1.24.6
+blueocean-commons:1.24.5                                        |  blueocean-commons:1.24.6
+blueocean-config:1.24.5                                         |  blueocean-config:1.24.6
+blueocean-core-js:1.24.5                                        |  blueocean-core-js:1.24.6
+blueocean-dashboard:1.24.5                                      |  blueocean-dashboard:1.24.6
 blueocean-display-url:2.4.1                                        blueocean-display-url:2.4.1
-blueocean-events:1.24.5                                            blueocean-events:1.24.5
-blueocean-git-pipeline:1.24.5                                      blueocean-git-pipeline:1.24.5
-blueocean-github-pipeline:1.24.5                                   blueocean-github-pipeline:1.24.5
-blueocean-i18n:1.24.5                                              blueocean-i18n:1.24.5
-blueocean-jira:1.24.5                                           <
-blueocean-jwt:1.24.5                                               blueocean-jwt:1.24.5
-blueocean-personalization:1.24.5                                   blueocean-personalization:1.24.5
-blueocean-pipeline-api-impl:1.24.5                                 blueocean-pipeline-api-impl:1.24.5
-blueocean-pipeline-editor:1.24.5                                   blueocean-pipeline-editor:1.24.5
-blueocean-pipeline-scm-api:1.24.5                                  blueocean-pipeline-scm-api:1.24.5
-blueocean-rest-impl:1.24.5                                         blueocean-rest-impl:1.24.5
-blueocean-rest:1.24.5                                              blueocean-rest:1.24.5
-blueocean-web:1.24.5                                               blueocean-web:1.24.5
-blueocean:1.24.5                                                   blueocean:1.24.5
+blueocean-events:1.24.5                                         |  blueocean-events:1.24.6
+blueocean-git-pipeline:1.24.5                                   |  blueocean-git-pipeline:1.24.6
+blueocean-github-pipeline:1.24.5                                |  blueocean-github-pipeline:1.24.6
+blueocean-i18n:1.24.5                                           |  blueocean-i18n:1.24.6
+blueocean-jira:1.24.5                                           |  blueocean-jwt:1.24.6
+blueocean-jwt:1.24.5                                            |  blueocean-personalization:1.24.6
+blueocean-personalization:1.24.5                                |  blueocean-pipeline-api-impl:1.24.6
+blueocean-pipeline-api-impl:1.24.5                              |  blueocean-pipeline-editor:1.24.6
+blueocean-pipeline-editor:1.24.5                                |  blueocean-pipeline-scm-api:1.24.6
+blueocean-pipeline-scm-api:1.24.5                               |  blueocean-rest-impl:1.24.6
+blueocean-rest-impl:1.24.5                                      |  blueocean-rest:1.24.6
+blueocean-rest:1.24.5                                           |  blueocean-web:1.24.6
+blueocean-web:1.24.5                                            |  blueocean:1.24.6
+blueocean:1.24.5                                                <
 bootstrap4-api:4.6.0-3                                             bootstrap4-api:4.6.0-3
 bouncycastle-api:2.20                                              bouncycastle-api:2.20
 branch-api:2.6.3                                                   branch-api:2.6.3
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
 checks-api:1.7.0                                                   checks-api:1.7.0
-cloudbees-bitbucket-branch-source:2.9.7                            cloudbees-bitbucket-branch-source:2.9.7
+cloudbees-bitbucket-branch-source:2.9.7                         |  cloudbees-bitbucket-branch-source:2.9.8
 cloudbees-folder:6.15                                              cloudbees-folder:6.15
 command-launcher:1.5                                            |  command-launcher:1.2
 conditional-buildstep:1.4.1                                        conditional-buildstep:1.4.1
 config-file-provider:3.7.0                                         config-file-provider:3.7.0
 credentials-binding:1.24                                           credentials-binding:1.24
-credentials:2.3.15                                                 credentials:2.3.15
+credentials:2.3.15                                              |  credentials:2.3.18
 display-url-api:2.3.4                                              display-url-api:2.3.4
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.26                                               docker-workflow:1.26
@@ -66,10 +66,10 @@ github:1.33.1                                                      github:1.33.1
 handlebars:3.0.8                                                   handlebars:3.0.8
 handy-uri-templates-2-api:2.1.8-1.0                                handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.25                                                 htmlpublisher:1.25
-jackson2-api:2.12.1                                                jackson2-api:2.12.1
+jackson2-api:2.12.1                                             |  jackson2-api:2.12.3
 javadoc:1.6                                                        javadoc:1.6
 jdk-tool:1.5                                                    |  jdk-tool:1.0
-jenkins-design-language:1.24.5                                     jenkins-design-language:1.24.5
+jenkins-design-language:1.24.5                                  |  jenkins-design-language:1.24.6
 jira:3.2.1                                                      <
 jjwt-api:0.11.2-9.c8b45b8bb173                                     jjwt-api:0.11.2-9.c8b45b8bb173
 job-dsl:1.77                                                       job-dsl:1.77
@@ -112,7 +112,7 @@ role-strategy:3.1.1                                                role-strategy
 run-condition:1.5                                                  run-condition:1.5
 scm-api:2.6.4                                                      scm-api:2.6.4
 script-security:1.76                                               script-security:1.76
-slack:2.46                                                         slack:2.46
+slack:2.46                                                      |  slack:2.47
 snakeyaml-api:1.27.0                                               snakeyaml-api:1.27.0
 sonar:2.13                                                         sonar:2.13
 sse-gateway:1.24                                                   sse-gateway:1.24
