@@ -8,45 +8,45 @@ apache-httpcomponents-client-4-api:4.5.13-1.0                      apache-httpco
 authentication-tokens:1.4                                          authentication-tokens:1.4
 authorize-project:1.4.0                                            authorize-project:1.4.0
 blueocean-autofavorite:1.2.4                                       blueocean-autofavorite:1.2.4
-blueocean-bitbucket-pipeline:1.24.6                                blueocean-bitbucket-pipeline:1.24.6
-blueocean-commons:1.24.6                                           blueocean-commons:1.24.6
-blueocean-config:1.24.6                                            blueocean-config:1.24.6
-blueocean-core-js:1.24.6                                           blueocean-core-js:1.24.6
-blueocean-dashboard:1.24.6                                         blueocean-dashboard:1.24.6
+blueocean-bitbucket-pipeline:1.24.7                             |  blueocean-bitbucket-pipeline:1.24.6
+blueocean-commons:1.24.7                                        |  blueocean-commons:1.24.6
+blueocean-config:1.24.7                                         |  blueocean-config:1.24.6
+blueocean-core-js:1.24.7                                        |  blueocean-core-js:1.24.6
+blueocean-dashboard:1.24.7                                      |  blueocean-dashboard:1.24.6
 blueocean-display-url:2.4.1                                        blueocean-display-url:2.4.1
-blueocean-events:1.24.6                                            blueocean-events:1.24.6
-blueocean-git-pipeline:1.24.6                                      blueocean-git-pipeline:1.24.6
-blueocean-github-pipeline:1.24.6                                   blueocean-github-pipeline:1.24.6
-blueocean-i18n:1.24.6                                              blueocean-i18n:1.24.6
-blueocean-jira:1.24.6                                           <
-blueocean-jwt:1.24.6                                               blueocean-jwt:1.24.6
-blueocean-personalization:1.24.6                                   blueocean-personalization:1.24.6
-blueocean-pipeline-api-impl:1.24.6                                 blueocean-pipeline-api-impl:1.24.6
-blueocean-pipeline-editor:1.24.6                                   blueocean-pipeline-editor:1.24.6
-blueocean-pipeline-scm-api:1.24.6                                  blueocean-pipeline-scm-api:1.24.6
-blueocean-rest-impl:1.24.6                                         blueocean-rest-impl:1.24.6
-blueocean-rest:1.24.6                                              blueocean-rest:1.24.6
-blueocean-web:1.24.6                                               blueocean-web:1.24.6
-blueocean:1.24.6                                                   blueocean:1.24.6
+blueocean-events:1.24.7                                         |  blueocean-events:1.24.6
+blueocean-git-pipeline:1.24.7                                   |  blueocean-git-pipeline:1.24.6
+blueocean-github-pipeline:1.24.7                                |  blueocean-github-pipeline:1.24.6
+blueocean-i18n:1.24.7                                           |  blueocean-i18n:1.24.6
+blueocean-jira:1.24.7                                           |  blueocean-jwt:1.24.6
+blueocean-jwt:1.24.7                                            |  blueocean-personalization:1.24.6
+blueocean-personalization:1.24.7                                |  blueocean-pipeline-api-impl:1.24.6
+blueocean-pipeline-api-impl:1.24.7                              |  blueocean-pipeline-editor:1.24.6
+blueocean-pipeline-editor:1.24.7                                |  blueocean-pipeline-scm-api:1.24.6
+blueocean-pipeline-scm-api:1.24.7                               |  blueocean-rest-impl:1.24.6
+blueocean-rest-impl:1.24.7                                      |  blueocean-rest:1.24.6
+blueocean-rest:1.24.7                                           |  blueocean-web:1.24.6
+blueocean-web:1.24.7                                            |  blueocean:1.24.6
+blueocean:1.24.7                                                <
 bootstrap4-api:4.6.0-3                                             bootstrap4-api:4.6.0-3
 bouncycastle-api:2.20                                              bouncycastle-api:2.20
 branch-api:2.6.4                                                   branch-api:2.6.4
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
 caffeine-api:2.9.1-23.v51c4e2c879c8                             <
 checks-api:1.7.0                                                   checks-api:1.7.0
-cloudbees-bitbucket-branch-source:2.9.8                            cloudbees-bitbucket-branch-source:2.9.8
+cloudbees-bitbucket-branch-source:2.9.9                         |  cloudbees-bitbucket-branch-source:2.9.8
 cloudbees-folder:6.15                                              cloudbees-folder:6.15
 command-launcher:1.6                                            |  command-launcher:1.2
 conditional-buildstep:1.4.1                                        conditional-buildstep:1.4.1
 config-file-provider:3.8.0                                         config-file-provider:3.8.0
 credentials-binding:1.24                                           credentials-binding:1.24
 credentials:2.4.1                                               |  credentials:2.3.18
-display-url-api:2.3.4                                              display-url-api:2.3.4
+display-url-api:2.3.5                                           |  display-url-api:2.3.4
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.26                                               docker-workflow:1.26
 durable-task:1.36                                                  durable-task:1.36
 echarts-api:5.1.0-2                                                echarts-api:5.1.0-2
-email-ext:2.82                                                     email-ext:2.82
+email-ext:2.83                                                  |  email-ext:2.82
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
 envinject-api:1.7                                                  envinject-api:1.7
 envinject:2.4.0                                                    envinject:2.4.0
@@ -60,7 +60,7 @@ git-parameter:0.9.13                                               git-parameter
 git-server:1.9                                                     git-server:1.9
 git:4.7.1                                                          git:4.7.1
 github-api:1.123                                                   github-api:1.123
-github-branch-source:2.10.2                                        github-branch-source:2.10.2
+github-branch-source:2.10.4                                     |  github-branch-source:2.10.2
 github-oauth:0.33                                                  github-oauth:0.33
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.33.1                                                      github:1.33.1
@@ -70,7 +70,7 @@ htmlpublisher:1.25                                                 htmlpublisher
 jackson2-api:2.12.3                                                jackson2-api:2.12.3
 javadoc:1.6                                                        javadoc:1.6
 jdk-tool:1.5                                                    |  jdk-tool:1.0
-jenkins-design-language:1.24.6                                     jenkins-design-language:1.24.6
+jenkins-design-language:1.24.7                                  |  jenkins-design-language:1.24.6
 jira:3.3                                                        <
 jjwt-api:0.11.2-9.c8b45b8bb173                                     jjwt-api:0.11.2-9.c8b45b8bb173
 job-dsl:1.77                                                       job-dsl:1.77
@@ -120,7 +120,7 @@ sse-gateway:1.24                                                   sse-gateway:1
 ssh-agent:1.22                                                     ssh-agent:1.22
 ssh-credentials:1.18.1                                             ssh-credentials:1.18.1
 structs:1.23                                                    |  structs:1.22
-swarm:3.25                                                         swarm:3.25
+swarm:3.26                                                      |  swarm:3.25
 timestamper:1.13                                                |  timestamper:1.12
 token-macro:2.15                                                   token-macro:2.15
 trilead-api:1.0.13                                                 trilead-api:1.0.13
