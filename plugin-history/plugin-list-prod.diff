@@ -29,11 +29,11 @@ blueocean-rest:1.24.8                                              blueocean-res
 blueocean-web:1.24.8                                               blueocean-web:1.24.8
 blueocean:1.24.8                                                   blueocean:1.24.8
 bootstrap4-api:4.6.0-3                                             bootstrap4-api:4.6.0-3
-bootstrap5-api:5.1.0-1                                          |  bootstrap5-api:5.0.2-1
-bouncycastle-api:2.21                                              bouncycastle-api:2.21
+bootstrap5-api:5.1.0-1                                             bootstrap5-api:5.1.0-1
+bouncycastle-api:2.21                                           |  bouncycastle-api:2.23
 branch-api:2.6.5                                                   branch-api:2.6.5
 build-monitor-plugin:1.12+build.201809061734                       build-monitor-plugin:1.12+build.201809061734
-caffeine-api:2.9.1-23.v51c4e2c879c8                                caffeine-api:2.9.1-23.v51c4e2c879c8
+caffeine-api:2.9.1-23.v51c4e2c879c8                             |  caffeine-api:2.9.2-29.v717aac953ff3
 checks-api:1.7.2                                                   checks-api:1.7.2
 cloudbees-bitbucket-branch-source:2.9.10                           cloudbees-bitbucket-branch-source:2.9.10
 cloudbees-folder:6.16                                              cloudbees-folder:6.16
@@ -45,8 +45,8 @@ credentials:2.5                                                    credentials:2
 display-url-api:2.3.5                                              display-url-api:2.3.5
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.26                                               docker-workflow:1.26
-durable-task:1.38                                                  durable-task:1.38
-echarts-api:5.1.2-8                                             |  echarts-api:5.1.2-3
+durable-task:1.38                                               |  durable-task:1.39
+echarts-api:5.1.2-8                                             |  echarts-api:5.1.2-9
 email-ext:2.83                                                     email-ext:2.83
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
 envinject-api:1.7                                                  envinject-api:1.7
@@ -59,18 +59,19 @@ ghprb:1.42.2                                                       ghprb:1.42.2
 git-client:3.9.0                                                   git-client:3.9.0
 git-parameter:0.9.13                                               git-parameter:0.9.13
 git-server:1.10                                                    git-server:1.10
-git:4.8.1                                                          git:4.8.1
+git:4.8.1                                                       |  git:4.8.2
 github-api:1.123                                                   github-api:1.123
 github-branch-source:2.11.2                                        github-branch-source:2.11.2
 github-oauth:0.33                                                  github-oauth:0.33
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
-github:1.33.1                                                      github:1.33.1
+github:1.33.1                                                   |  github:1.34.0
 handlebars:3.0.8                                                   handlebars:3.0.8
 handy-uri-templates-2-api:2.1.8-1.0                                handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.25                                                 htmlpublisher:1.25
 jackson2-api:2.12.4                                                jackson2-api:2.12.4
 javadoc:1.6                                                        javadoc:1.6
-jdk-tool:1.5                                                    |  jdk-tool:1.0
+jdk-tool:1.5                                                    |  jaxb:2.3.0
+                                                                >  jdk-tool:1.0
 jenkins-design-language:1.24.8                                     jenkins-design-language:1.24.8
 jira:3.5                                                        <
 jjwt-api:0.11.2-9.c8b45b8bb173                                     jjwt-api:0.11.2-9.c8b45b8bb173
@@ -79,7 +80,7 @@ jquery-detached:1.2.1                                           <
 jquery3-api:3.6.0-2                                                jquery3-api:3.6.0-2
 jquery:1.12.4-1                                                    jquery:1.12.4-1
 jsch:0.1.55.2                                                      jsch:0.1.55.2
-junit:1.52                                                      |  junit:1.51
+junit:1.52                                                         junit:1.52
 ldap:2.7                                                        <
 lockable-resources:2.11                                            lockable-resources:2.11
 m2release:0.16.2                                                   m2release:0.16.2
@@ -92,7 +93,7 @@ momentjs:1.1.1                                                     momentjs:1.1.
 okhttp-api:3.14.9                                                  okhttp-api:3.14.9
 pam-auth:1.6                                                    <
 parameterized-trigger:2.41                                         parameterized-trigger:2.41
-pipeline-build-step:2.15                                        |  pipeline-build-step:2.14
+pipeline-build-step:2.15                                           pipeline-build-step:2.15
 pipeline-graph-analysis:1.11                                       pipeline-graph-analysis:1.11
 pipeline-input-step:2.12                                           pipeline-input-step:2.12
 pipeline-milestone-step:1.3.2                                      pipeline-milestone-step:1.3.2
@@ -108,13 +109,13 @@ plain-credentials:1.7                                              plain-credent
 plot:2.1.9                                                         plot:2.1.9
 plugin-util-api:2.4.0                                              plugin-util-api:2.4.0
 popper-api:1.16.1-2                                                popper-api:1.16.1-2
-popper2-api:2.9.3-1                                             |  popper2-api:2.5.4-3
+popper2-api:2.9.3-1                                                popper2-api:2.9.3-1
 pubsub-light:1.16                                                  pubsub-light:1.16
 resource-disposer:0.16                                             resource-disposer:0.16
-role-strategy:3.2.0                                             |  role-strategy:3.1.1
+role-strategy:3.2.0                                                role-strategy:3.2.0
 run-condition:1.5                                                  run-condition:1.5
-scm-api:2.6.5                                                   |  scm-api:2.6.4
-script-security:1.78                                            |  script-security:1.77
+scm-api:2.6.5                                                      scm-api:2.6.5
+script-security:1.78                                               script-security:1.78
 slack:2.48                                                         slack:2.48
 snakeyaml-api:1.29.1                                               snakeyaml-api:1.29.1
 sonar:2.13.1                                                       sonar:2.13.1
@@ -132,7 +133,7 @@ view-job-filters:2.3                                               view-job-filt
 windows-slaves:1.8                                              <
 workflow-aggregator:2.6                                            workflow-aggregator:2.6
 workflow-api:2.46                                                  workflow-api:2.46
-workflow-basic-steps:2.23                                          workflow-basic-steps:2.23
+workflow-basic-steps:2.23                                       |  workflow-basic-steps:2.24
 workflow-cps-global-lib:2.21                                       workflow-cps-global-lib:2.21
 workflow-cps:2.93                                                  workflow-cps:2.93
 workflow-durable-task-step:2.39                                    workflow-durable-task-step:2.39
