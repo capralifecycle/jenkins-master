@@ -32,7 +32,7 @@ bootstrap4-api:4.6.0-3                                             bootstrap4-ap
 bootstrap5-api:5.1.3-3                                             bootstrap5-api:5.1.3-3
 bouncycastle-api:2.25                                              bouncycastle-api:2.25
 branch-api:2.7.0                                                   branch-api:2.7.0
-build-monitor-plugin:1.13+build.202112032236                    |  build-monitor-plugin:1.13+build.202112012056
+build-monitor-plugin:1.13+build.202112061615                    |  build-monitor-plugin:1.13+build.202112012056
 caffeine-api:2.9.2-29.v717aac953ff3                                caffeine-api:2.9.2-29.v717aac953ff3
 checks-api:1.7.2                                                   checks-api:1.7.2
 cloudbees-bitbucket-branch-source:734.v2f848c5e6ea2             |  cloudbees-bitbucket-branch-source:731.v1f980b7eba32
@@ -41,13 +41,13 @@ command-launcher:1.6                                            |  command-launc
 conditional-buildstep:1.4.1                                        conditional-buildstep:1.4.1
 config-file-provider:3.8.2                                         config-file-provider:3.8.2
 credentials-binding:1.27                                           credentials-binding:1.27
-credentials:2.6.1                                               |  credentials:2.6.2
+credentials:2.6.2                                                  credentials:2.6.2
 display-url-api:2.3.5                                              display-url-api:2.3.5
 docker-commons:1.17                                                docker-commons:1.17
 docker-workflow:1.26                                               docker-workflow:1.26
 durable-task:493.v195aefbb0ff2                                     durable-task:493.v195aefbb0ff2
 echarts-api:5.2.2-1                                                echarts-api:5.2.2-1
-email-ext:2.85                                                     email-ext:2.85
+email-ext:2.86                                                  |  email-ext:2.85
 embeddable-build-status:2.0.3                                      embeddable-build-status:2.0.3
 envinject-api:1.8                                                  envinject-api:1.8
 envinject:2.4.0                                                    envinject:2.4.0
@@ -85,7 +85,7 @@ ldap:2.7                                                        <
 lockable-resources:2.12                                            lockable-resources:2.12
 m2release:0.16.2                                                   m2release:0.16.2
 mailer:1.34                                                        mailer:1.34
-matrix-auth:2.6.9                                               |  matrix-auth:2.6.8
+matrix-auth:2.6.11                                              |  matrix-auth:2.6.8
 matrix-project:1.19                                                matrix-project:1.19
 maven-plugin:3.15.1                                                maven-plugin:3.15.1
 mercurial:2.16                                                  <
@@ -132,14 +132,14 @@ variant:1.4                                                        variant:1.4
 view-job-filters:2.3                                               view-job-filters:2.3
 windows-slaves:1.8                                              <
 workflow-aggregator:2.6                                            workflow-aggregator:2.6
-workflow-api:2.47                                                  workflow-api:2.47
+workflow-api:1105.v3de5e2efac97                                 |  workflow-api:2.47
 workflow-basic-steps:2.24                                          workflow-basic-steps:2.24
 workflow-cps-global-lib:548.v9085a486966a                          workflow-cps-global-lib:548.v9085a486966a
 workflow-cps:2640.v00e79c8113de                                    workflow-cps:2640.v00e79c8113de
-workflow-durable-task-step:1101.vf832bc1ac745                      workflow-durable-task-step:1101.vf832bc1ac745
+workflow-durable-task-step:1102.v9c8d2f466adb                   |  workflow-durable-task-step:1101.vf832bc1ac745
 workflow-job:2.42                                                  workflow-job:2.42
 workflow-multibranch:2.26                                          workflow-multibranch:2.26
 workflow-scm-step:2.13                                             workflow-scm-step:2.13
-workflow-step-api:2.24                                             workflow-step-api:2.24
+workflow-step-api:613.v375732a042b1                             |  workflow-step-api:2.24
 workflow-support:3.8                                               workflow-support:3.8
 ws-cleanup:0.39                                                    ws-cleanup:0.39
