@@ -8,7 +8,7 @@
   },
   "private": true,
   "devDependencies": {
-    "@capraconsulting/cals-cli": "2.23.1",
+    "@capraconsulting/cals-cli": "2.23.2",
     "@types/node": "16.11.22",
     "execa": "5.1.1",
     "ts-node": "10.4.0",
