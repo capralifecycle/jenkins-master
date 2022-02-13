@@ -5,7 +5,7 @@ antisamy-markup-formatter:2.7
 apache-httpcomponents-client-4-api:4.5.13-1.0
 authentication-tokens:1.4
 authorize-project:1.4.0
-blueocean-autofavorite:1.2.4
+blueocean-autofavorite:1.2.5
 blueocean-bitbucket-pipeline:1.25.2
 blueocean-commons:1.25.2
 blueocean-config:1.25.2
@@ -30,7 +30,7 @@ bootstrap4-api:4.6.0-3
 bootstrap5-api:5.1.3-4
 bouncycastle-api:2.25
 branch-api:2.7.0
-build-monitor-plugin:1.13+build.202201311821
+build-monitor-plugin:1.13+build.202202100032
 caffeine-api:2.9.2-29.v717aac953ff3
 checks-api:1.7.2
 cloudbees-bitbucket-branch-source:751.vda_24678a_f781
@@ -67,7 +67,7 @@ handlebars:3.0.8
 handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.29
 jackson2-api:2.13.1-246.va8a9f3eaf46a
-javadoc:1.6
+javadoc:217.v905b_86277a_2a_
 javax-activation-api:1.2.0-2
 javax-mail-api:1.6.2-5
 jaxb:2.3.0.1
@@ -81,9 +81,9 @@ jquery-detached:1.2.1
 jquery3-api:3.6.0-2
 jquery:1.12.4-1
 jsch:0.1.55.2
-junit:1.53
+junit:1.54
 ldap:2.7
-lockable-resources:2.13
+lockable-resources:2.14
 m2release:0.16.2
 mailer:408.vd726a_1130320
 matrix-auth:2.6.11
@@ -97,7 +97,7 @@ parameterized-trigger:2.43
 pipeline-build-step:2.15
 pipeline-graph-analysis:188.v3a01e7973f2c
 pipeline-input-step:446.vf27b_0b_83500e
-pipeline-milestone-step:1.3.2
+pipeline-milestone-step:100.v60a_03cd446e1
 pipeline-model-api:1.9.3
 pipeline-model-definition:1.9.3
 pipeline-model-extensions:1.9.3
@@ -127,7 +127,7 @@ sshd:3.1.0
 structs:308.v852b473a2b8c
 swarm:3.30
 timestamper:1.17
-token-macro:267.vcdaea6462991
+token-macro:270.v8c2ce50dc4fc
 trilead-api:1.0.13
 variant:1.4
 view-job-filters:2.3
