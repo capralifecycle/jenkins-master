@@ -11,7 +11,7 @@
     "@capraconsulting/cals-cli": "2.24.0",
     "@types/node": "16.11.26",
     "execa": "5.1.1",
-    "ts-node": "10.6.0",
+    "ts-node": "10.7.0",
     "typescript": "4.6.2"
   }
 }
