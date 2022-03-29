@@ -1,4 +1,4 @@
-FROM debian:stretch-slim@sha256:c6f5620c750363e13d732d8707294cf86c6cc93b423528a9086b87afe8d42eaf
+FROM debian:stretch-slim@sha256:9a5ef79eae32dab4a70da0f840b2dedd975ca06a7675b1483cfdec3a197319f1
 
 RUN set -eux; \
     apt-get update; \
