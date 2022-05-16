@@ -1,9 +1,11 @@
 {
   "name": "test",
   "version": "0.0.0-development",
+  "type": "module",
+  "node": ">=14.16",
   "scripts": {
     "build-image": "docker build -t jenkins .",
-    "test-image": "ts-node ci/test-and-extract-data.ts",
+    "test-image": "ts-node --esm ci/test-and-extract-data.ts",
     "test": "npm run build-image && npm run test-image jenkins"
   },
   "private": true,
