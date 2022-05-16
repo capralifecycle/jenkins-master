@@ -6,7 +6,7 @@ import {
   TestExecutor,
   waitForHttpOk,
 } from "@capraconsulting/cals-cli"
-import execa from "execa"
+import { execa } from "execa"
 import * as fs from "fs"
 
 type ThenArg<T> = T extends PromiseLike<infer U> ? U : T

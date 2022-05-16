@@ -1,16 +1,18 @@
 {
   "name": "test",
   "version": "0.0.0-development",
+  "type": "module",
+  "node": ">=14.16",
   "scripts": {
     "build-image": "docker build -t jenkins .",
-    "test-image": "ts-node ci/test-and-extract-data.ts",
+    "test-image": "ts-node --esm ci/test-and-extract-data.ts",
     "test": "npm run build-image && npm run test-image jenkins"
   },
   "private": true,
   "devDependencies": {
     "@capraconsulting/cals-cli": "2.24.0",
     "@types/node": "16.11.33",
-    "execa": "5.1.1",
+    "execa": "6.1.0",
     "ts-node": "10.7.0",
     "typescript": "4.6.4"
   }
