@@ -13,7 +13,7 @@
     "@capraconsulting/cals-cli": "2.24.0",
     "@types/node": "16.11.38",
     "execa": "6.1.0",
-    "ts-node": "10.8.0",
+    "ts-node": "10.8.1",
     "typescript": "4.7.2"
   }
 }
