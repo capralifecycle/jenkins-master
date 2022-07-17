@@ -48,7 +48,7 @@ docker-workflow:1.29                                               docker-workfl
 durable-task:496.va67c6f9eefa7                                     durable-task:496.va67c6f9eefa7
 echarts-api:5.3.3-1                                                echarts-api:5.3.3-1
 email-ext:2.89                                                     email-ext:2.89
-embeddable-build-status:2.0.4                                      embeddable-build-status:2.0.4
+embeddable-build-status:235.v27da_06040f5f                      |  embeddable-build-status:2.0.4
 envinject-api:1.199.v3ce31253ed13                                  envinject-api:1.199.v3ce31253ed13
 envinject:2.866.v5c0403e3d4df                                      envinject:2.866.v5c0403e3d4df
 extended-read-permission:3.2                                    <
@@ -77,7 +77,7 @@ jdk-tool:1.5                                                    |  jdk-tool:1.0
 jenkins-design-language:1.25.5                                     jenkins-design-language:1.25.5
 jira:3.7.1                                                      <
 jjwt-api:0.11.5-77.v646c772fddb_0                                  jjwt-api:0.11.5-77.v646c772fddb_0
-jnr-posix-api:3.1.7-3                                           <
+jnr-posix-api:3.1.15-1                                          <
 job-dsl:1.80                                                       job-dsl:1.80
 jquery-detached:1.2.1                                           <
 jquery3-api:3.6.0-4                                                jquery3-api:3.6.0-4
@@ -96,8 +96,8 @@ mina-sshd-api-common:2.8.0-21.v493b_6b_db_22c6                  <
 mina-sshd-api-core:2.8.0-21.v493b_6b_db_22c6                    <
 momentjs:1.1.1                                                     momentjs:1.1.1
 okhttp-api:4.9.3-105.vb96869f8ac3a                                 okhttp-api:4.9.3-105.vb96869f8ac3a
-pam-auth:1.8                                                    |  parameterized-trigger:2.45
-parameterized-trigger:2.44                                      <
+pam-auth:1.8                                                    <
+parameterized-trigger:2.45                                         parameterized-trigger:2.45
 pipeline-build-step:2.18                                           pipeline-build-step:2.18
 pipeline-graph-analysis:195.v5812d95a_a_2f9                        pipeline-graph-analysis:195.v5812d95a_a_2f9
 pipeline-groovy-lib:593.va_a_fc25d520e9                            pipeline-groovy-lib:593.va_a_fc25d520e9
@@ -130,22 +130,22 @@ ssh-agent:295.v9ca_a_1c7cc3a_a_                                    ssh-agent:295
 ssh-credentials:291.v8211e4f8efb_c                                 ssh-credentials:291.v8211e4f8efb_c
 sshd:3.242.va_db_9da_b_26a_c3                                   |  sshd:3.0.3
 structs:318.va_f3ccb_729b_71                                       structs:318.va_f3ccb_729b_71
-swarm:3.33                                                      |  swarm:3.34
+swarm:3.34                                                         swarm:3.34
 timestamper:1.18                                                   timestamper:1.18
 token-macro:293.v283932a_0a_b_49                                   token-macro:293.v283932a_0a_b_49
-trilead-api:1.57.v6e90e07157e1                                     trilead-api:1.57.v6e90e07157e1
+trilead-api:1.66.v49c6758b_b_360                                |  trilead-api:1.57.v6e90e07157e1
 variant:1.4                                                        variant:1.4
 view-job-filters:2.3                                               view-job-filters:2.3
 windows-slaves:1.8.1                                            <
 workflow-aggregator:590.v6a_d052e5a_a_b_5                          workflow-aggregator:590.v6a_d052e5a_a_b_5
-workflow-api:1165.v02c3db_a_6b_e36                              |  workflow-api:1188.v0016b_4f29881
-workflow-basic-steps:948.v2c72a_091b_b_68                       |  workflow-basic-steps:969.vc4ec3e4854b_f
-workflow-cps-global-lib:588.v576c103a_ff86                      |  workflow-cps:2746.v0da_83a_332669
-workflow-cps:2729.vea_17b_79ed57a_                              |  workflow-durable-task-step:1174.v73a_9a_17edce0
-workflow-durable-task-step:1155.v79567b_e0a_2de                 |  workflow-job:1206.vc48d96b_930b_2
-workflow-job:1189.va_d37a_e9e4eda_                              <
+workflow-api:1188.v0016b_4f29881                                   workflow-api:1188.v0016b_4f29881
+workflow-basic-steps:969.vc4ec3e4854b_f                            workflow-basic-steps:969.vc4ec3e4854b_f
+workflow-cps-global-lib:588.v576c103a_ff86                      <
+workflow-cps:2746.v0da_83a_332669                                  workflow-cps:2746.v0da_83a_332669
+workflow-durable-task-step:1174.v73a_9a_17edce0                    workflow-durable-task-step:1174.v73a_9a_17edce0
+workflow-job:1207.ve6191ff089f8                                 |  workflow-job:1206.vc48d96b_930b_2
 workflow-multibranch:716.vc692a_e52371b_                           workflow-multibranch:716.vc692a_e52371b_
 workflow-scm-step:400.v6b_89a_1317c9a_                             workflow-scm-step:400.v6b_89a_1317c9a_
 workflow-step-api:625.vd896b_f445a_f8                              workflow-step-api:625.vd896b_f445a_f8
-workflow-support:820.vd1a_6cc65ef33                             |  workflow-support:833.va_1c71061486b_
+workflow-support:833.va_1c71061486b_                               workflow-support:833.va_1c71061486b_
 ws-cleanup:0.42                                                    ws-cleanup:0.42
