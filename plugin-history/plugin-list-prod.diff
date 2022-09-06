@@ -8,28 +8,28 @@ apache-httpcomponents-client-4-api:4.5.13-138.v4e7d9a_7b_a_e61     apache-httpco
 authentication-tokens:1.4                                          authentication-tokens:1.4
 authorize-project:1.4.0                                            authorize-project:1.4.0
 blueocean-autofavorite:1.2.5                                       blueocean-autofavorite:1.2.5
-blueocean-bitbucket-pipeline:1.25.6                                blueocean-bitbucket-pipeline:1.25.6
-blueocean-commons:1.25.6                                           blueocean-commons:1.25.6
-blueocean-config:1.25.6                                            blueocean-config:1.25.6
-blueocean-core-js:1.25.6                                           blueocean-core-js:1.25.6
-blueocean-dashboard:1.25.6                                         blueocean-dashboard:1.25.6
+blueocean-bitbucket-pipeline:1.25.7                             |  blueocean-bitbucket-pipeline:1.25.6
+blueocean-commons:1.25.7                                        |  blueocean-commons:1.25.6
+blueocean-config:1.25.7                                         |  blueocean-config:1.25.6
+blueocean-core-js:1.25.7                                        |  blueocean-core-js:1.25.6
+blueocean-dashboard:1.25.7                                      |  blueocean-dashboard:1.25.6
 blueocean-display-url:2.4.1                                        blueocean-display-url:2.4.1
-blueocean-events:1.25.6                                            blueocean-events:1.25.6
-blueocean-git-pipeline:1.25.6                                      blueocean-git-pipeline:1.25.6
-blueocean-github-pipeline:1.25.6                                   blueocean-github-pipeline:1.25.6
-blueocean-i18n:1.25.6                                              blueocean-i18n:1.25.6
-blueocean-jira:1.25.6                                           <
-blueocean-jwt:1.25.6                                               blueocean-jwt:1.25.6
-blueocean-personalization:1.25.6                                   blueocean-personalization:1.25.6
-blueocean-pipeline-api-impl:1.25.6                                 blueocean-pipeline-api-impl:1.25.6
-blueocean-pipeline-editor:1.25.6                                   blueocean-pipeline-editor:1.25.6
-blueocean-pipeline-scm-api:1.25.6                                  blueocean-pipeline-scm-api:1.25.6
-blueocean-rest-impl:1.25.6                                         blueocean-rest-impl:1.25.6
-blueocean-rest:1.25.6                                              blueocean-rest:1.25.6
-blueocean-web:1.25.6                                               blueocean-web:1.25.6
-blueocean:1.25.6                                                   blueocean:1.25.6
-bootstrap4-api:4.6.0-5                                          |  bootstrap5-api:5.2.0-3
-bootstrap5-api:5.2.0-1                                          <
+blueocean-events:1.25.7                                         |  blueocean-events:1.25.6
+blueocean-git-pipeline:1.25.7                                   |  blueocean-git-pipeline:1.25.6
+blueocean-github-pipeline:1.25.7                                |  blueocean-github-pipeline:1.25.6
+blueocean-i18n:1.25.7                                           |  blueocean-i18n:1.25.6
+blueocean-jira:1.25.7                                           |  blueocean-jwt:1.25.6
+blueocean-jwt:1.25.7                                            |  blueocean-personalization:1.25.6
+blueocean-personalization:1.25.7                                |  blueocean-pipeline-api-impl:1.25.6
+blueocean-pipeline-api-impl:1.25.7                              |  blueocean-pipeline-editor:1.25.6
+blueocean-pipeline-editor:1.25.7                                |  blueocean-pipeline-scm-api:1.25.6
+blueocean-pipeline-scm-api:1.25.7                               |  blueocean-rest-impl:1.25.6
+blueocean-rest-impl:1.25.7                                      |  blueocean-rest:1.25.6
+blueocean-rest:1.25.7                                           |  blueocean-web:1.25.6
+blueocean-web:1.25.7                                            |  blueocean:1.25.6
+blueocean:1.25.7                                                <
+bootstrap4-api:4.6.0-5                                          <
+bootstrap5-api:5.2.0-3                                             bootstrap5-api:5.2.0-3
 bouncycastle-api:2.26                                              bouncycastle-api:2.26
 branch-api:2.1046.v0ca_37783ecc5                                   branch-api:2.1046.v0ca_37783ecc5
 build-monitor-plugin:1.13+build.202205140447                       build-monitor-plugin:1.13+build.202205140447
@@ -38,17 +38,18 @@ checks-api:1.7.5                                                   checks-api:1.
 cloudbees-bitbucket-branch-source:785.ve724eb_44e286               cloudbees-bitbucket-branch-source:785.ve724eb_44e286
 cloudbees-folder:6.740.ve4f4ffa_dea_54                             cloudbees-folder:6.740.ve4f4ffa_dea_54
 command-launcher:84.v4a_97f2027398                              |  command-launcher:1.2
+commons-lang3-api:3.12.0-36.vd97de6465d5b_                      <
 conditional-buildstep:1.4.2                                     <
 config-file-provider:3.11.1                                        config-file-provider:3.11.1
 credentials-binding:523.vd859a_4b_122e6                            credentials-binding:523.vd859a_4b_122e6
-credentials:1139.veb_9579fca_33b_                                  credentials:1139.veb_9579fca_33b_
+credentials:1143.vb_e8b_b_ceee347                               |  credentials:1139.veb_9579fca_33b_
 display-url-api:2.3.6                                              display-url-api:2.3.6
-docker-commons:1.19                                             |  docker-commons:1.21
+docker-commons:1.21                                                docker-commons:1.21
 docker-workflow:521.v1a_a_dd2073b_2e                               docker-workflow:521.v1a_a_dd2073b_2e
 durable-task:500.v8927d9fd99d8                                     durable-task:500.v8927d9fd99d8
 echarts-api:5.3.3-1                                                echarts-api:5.3.3-1
 email-ext:2.91                                                     email-ext:2.91
-embeddable-build-status:237.v37e2c03964c9                       |  embeddable-build-status:255.va_d2370ee8fde
+embeddable-build-status:255.va_d2370ee8fde                         embeddable-build-status:255.va_d2370ee8fde
 envinject-api:1.199.v3ce31253ed13                                  envinject-api:1.199.v3ce31253ed13
 envinject:2.875.v9b_9e962da_a_ec                                   envinject:2.875.v9b_9e962da_a_ec
 extended-read-permission:3.2                                    <
@@ -58,10 +59,10 @@ font-awesome-api:6.1.2-1                                           font-awesome-
 ghprb:1.42.2                                                       ghprb:1.42.2
 git-client:3.11.2                                                  git-client:3.11.2
 git-parameter:0.9.17                                               git-parameter:0.9.17
-git-server:1.11                                                 |  git:4.11.5
-git:4.11.4                                                      <
+git-server:1.11                                                 <
+git:4.11.5                                                         git:4.11.5
 github-api:1.303-400.v35c2d8258028                                 github-api:1.303-400.v35c2d8258028
-github-branch-source:1677.v731f745ea_0cf                        |  github-branch-source:1687.v7618247e672d
+github-branch-source:1687.v7618247e672d                            github-branch-source:1687.v7618247e672d
 github-oauth:0.39                                                  github-oauth:0.39
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.34.5                                                      github:1.34.5
@@ -76,24 +77,25 @@ javax-activation-api:1.2.0-4                                       javax-activat
 javax-mail-api:1.6.2-7                                          |  javax-mail-api:1.6.2-5
 jaxb:2.3.6-1                                                       jaxb:2.3.6-1
 jdk-tool:55.v1b_32b_6ca_f9ca                                    |  jdk-tool:1.0
-jenkins-design-language:1.25.6                                     jenkins-design-language:1.25.6
-jira:3.7.1                                                      <
+jenkins-design-language:1.25.7                                  |  jenkins-design-language:1.25.6
+jersey2-api:2.36-2                                              <
+jira:3.8                                                        <
 jjwt-api:0.11.5-77.v646c772fddb_0                                  jjwt-api:0.11.5-77.v646c772fddb_0
-jnr-posix-api:3.1.15-1                                          |  job-dsl:1.81
-job-dsl:1.80                                                    <
+jnr-posix-api:3.1.15-1                                          <
+job-dsl:1.81                                                       job-dsl:1.81
 jquery-detached:1.2.1                                           <
 jquery3-api:3.6.0-4                                                jquery3-api:3.6.0-4
 jquery:1.12.4-1                                                    jquery:1.12.4-1
 jsch:0.1.55.61.va_e9ee26616e7                                      jsch:0.1.55.61.va_e9ee26616e7
 junit:1119.1121.vc43d0fc45561                                      junit:1119.1121.vc43d0fc45561
-ldap:2.11                                                       <
+ldap:2.12                                                       <
 lockable-resources:2.16                                            lockable-resources:2.16
 m2release:0.16.3                                                   m2release:0.16.3
 mailer:435.v79ef3972b_5c7                                          mailer:435.v79ef3972b_5c7
 matrix-auth:3.1.5                                                  matrix-auth:3.1.5
 matrix-project:772.v494f19991984                                   matrix-project:772.v494f19991984
 maven-plugin:3.19                                                  maven-plugin:3.19
-mercurial:2.16.2                                                <
+mercurial:1251.va_b_121f184902                                  <
 mina-sshd-api-common:2.8.0-36.v8e25ce90d4b_1                    <
 mina-sshd-api-core:2.8.0-36.v8e25ce90d4b_1                      <
 momentjs:1.1.1                                                     momentjs:1.1.1
@@ -109,23 +111,23 @@ pipeline-model-api:2.2114.v2654ca_721309                           pipeline-mode
 pipeline-model-definition:2.2114.v2654ca_721309                    pipeline-model-definition:2.2114.v2654ca_721309
 pipeline-model-extensions:2.2114.v2654ca_721309                    pipeline-model-extensions:2.2114.v2654ca_721309
 pipeline-rest-api:2.24                                             pipeline-rest-api:2.24
-pipeline-stage-step:293.v200037eefcd5                              pipeline-stage-step:293.v200037eefcd5
+pipeline-stage-step:296.v5f6908f017a_5                          |  pipeline-stage-step:293.v200037eefcd5
 pipeline-stage-tags-metadata:2.2114.v2654ca_721309                 pipeline-stage-tags-metadata:2.2114.v2654ca_721309
 pipeline-stage-view:2.24                                           pipeline-stage-view:2.24
 pipeline-utility-steps:2.13.0                                      pipeline-utility-steps:2.13.0
 plain-credentials:139.ved2b_9cf7587b                               plain-credentials:139.ved2b_9cf7587b
 plot:2.1.11                                                        plot:2.1.11
 plugin-util-api:2.17.0                                             plugin-util-api:2.17.0
-popper-api:1.16.1-3                                             |  popper2-api:2.11.6-1
-popper2-api:2.11.5-2                                            <
+popper-api:1.16.1-3                                             <
+popper2-api:2.11.6-1                                               popper2-api:2.11.6-1
 pubsub-light:1.16                                                  pubsub-light:1.16
 resource-disposer:0.19                                             resource-disposer:0.19
-role-strategy:555.v8d194cc85b_30                                |  role-strategy:561.v9846c7351a_41
+role-strategy:561.v9846c7351a_41                                   role-strategy:561.v9846c7351a_41
 run-condition:1.5                                               <
 scm-api:621.vda_a_b_055e58f7                                       scm-api:621.vda_a_b_055e58f7
 script-security:1175.v4b_d517d6db_f0                               script-security:1175.v4b_d517d6db_f0
 slack:616.v03b_1e98d13dd                                           slack:616.v03b_1e98d13dd
-snakeyaml-api:1.30.2-76.vc104f7ce9870                              snakeyaml-api:1.30.2-76.vc104f7ce9870
+snakeyaml-api:1.31-84.ve43da_fb_49d0b                           |  snakeyaml-api:1.30.2-76.vc104f7ce9870
 sonar:2.14                                                         sonar:2.14
 sse-gateway:1.25                                                   sse-gateway:1.25
 ssh-agent:295.v9ca_a_1c7cc3a_a_                                    ssh-agent:295.v9ca_a_1c7cc3a_a_
