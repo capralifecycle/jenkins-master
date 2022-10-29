@@ -44,11 +44,11 @@ credentials-binding:523.vd859a_4b_122e6
 credentials:1189.vf61b_a_5e2f62e
 display-url-api:2.3.6
 docker-commons:1.21
-docker-workflow:521.v1a_a_dd2073b_2e
+docker-workflow:528.v7c193a_0b_e67c
 durable-task:501.ve5d4fc08b0be
 echarts-api:5.4.0-1
 email-ext:2.92
-embeddable-build-status:255.va_d2370ee8fde
+embeddable-build-status:281.vb_047b_375cdb_9
 envinject-api:1.199.v3ce31253ed13
 envinject:2.881.v37c62073ff97
 extended-read-permission:3.2
@@ -147,7 +147,7 @@ workflow-api:1200.v8005c684b_a_c6
 workflow-basic-steps:994.vd57e3ca_46d24
 workflow-cps-global-lib:588.v576c103a_ff86
 workflow-cps:2803.v1a_f77ffcc773
-workflow-durable-task-step:1206.v8a_d5f86e336b
+workflow-durable-task-step:1210.va_1e5d77e122b
 workflow-job:1249.v7d974144cc14
 workflow-multibranch:716.vc692a_e52371b_
 workflow-scm-step:400.v6b_89a_1317c9a_
