@@ -73,7 +73,7 @@ handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953                  handy-uri-tem
 htmlpublisher:1.31                                                 htmlpublisher:1.31
 instance-identity:142.v04572ca_5b_265                              instance-identity:142.v04572ca_5b_265
 ionicons-api:31.v4757b_6987003                                     ionicons-api:31.v4757b_6987003
-jackson2-api:2.14.1-313.v504cdd45c18b                              jackson2-api:2.14.1-313.v504cdd45c18b
+jackson2-api:2.14.1-313.v504cdd45c18b                           |  jackson2-api:2.14.2-319.v37853346a_229
 jakarta-activation-api:2.0.1-2                                     jakarta-activation-api:2.0.1-2
 jakarta-mail-api:2.0.1-2                                           jakarta-mail-api:2.0.1-2
 javadoc:226.v71211feb_e7e9                                         javadoc:226.v71211feb_e7e9
