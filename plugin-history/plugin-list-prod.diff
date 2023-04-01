@@ -44,7 +44,7 @@ conditional-buildstep:1.4.2                                     <
 config-file-provider:3.11.1                                        config-file-provider:3.11.1
 credentials-binding:523.vd859a_4b_122e6                            credentials-binding:523.vd859a_4b_122e6
 credentials:1224.vc23ca_a_9a_2cb_0                                 credentials:1224.vc23ca_a_9a_2cb_0
-data-tables-api:1.12.1-4                                        |  data-tables-api:1.13.3-3
+                                                                >  data-tables-api:1.13.3-3
 display-url-api:2.3.7                                              display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c                                   docker-commons:419.v8e3cd84ef49c
 docker-workflow:563.vd5d2e5c4007f                                  docker-workflow:563.vd5d2e5c4007f
@@ -92,8 +92,7 @@ jquery3-api:3.6.1-2                                             <
 jquery:1.12.4-1                                                 <
 jsch:0.1.55.61.va_e9ee26616e7                                      jsch:0.1.55.61.va_e9ee26616e7
 junit:1189.v1b_e593637fa_e                                         junit:1189.v1b_e593637fa_e
-ldap:671.v2a_9192a_7419d                                        <
-lockable-resources:1131.vb_7c3d377e723                             lockable-resources:1131.vb_7c3d377e723
+ldap:671.v2a_9192a_7419d                                        |  lockable-resources:1131.vb_7c3d377e723
 m2release:0.16.3                                                   m2release:0.16.3
 mailer:448.v5b_97805e3767                                          mailer:448.v5b_97805e3767
 matrix-auth:3.1.6                                                  matrix-auth:3.1.6
