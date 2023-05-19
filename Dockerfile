@@ -18,8 +18,6 @@ RUN jenkins-plugin-cli --verbose --plugins \
   email-ext \
   # Needed for mavenJob { environmentVariables } in job DSL
   envinject \
-  # Used with githubPullRequest job DSL step
-  ghprb \
   git \
   # Needed for parameters { gitParam } in job DSL
   git-parameter \
