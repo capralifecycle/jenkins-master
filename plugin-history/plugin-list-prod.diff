@@ -28,9 +28,9 @@ blueocean-rest-impl:1.27.4                                         blueocean-res
 blueocean-rest:1.27.4                                              blueocean-rest:1.27.4
 blueocean-web:1.27.4                                               blueocean-web:1.27.4
 blueocean:1.27.4                                                   blueocean:1.27.4
-bootstrap4-api:4.6.0-5                                          <
-bootstrap5-api:5.2.2-3                                             bootstrap5-api:5.2.2-3
-bouncycastle-api:2.27                                              bouncycastle-api:2.27
+bootstrap4-api:4.6.0-6                                          |  bootstrap5-api:5.2.2-3
+bootstrap5-api:5.2.2-5                                          |  bouncycastle-api:2.27
+bouncycastle-api:2.28                                           <
 branch-api:2.1092.vda_3c2a_a_f0c11                                 branch-api:2.1092.vda_3c2a_a_f0c11
 build-monitor-plugin:1.14-702.vf34cc4398955                        build-monitor-plugin:1.14-702.vf34cc4398955
 caffeine-api:3.1.6-115.vb_8b_b_328e59d8                            caffeine-api:3.1.6-115.vb_8b_b_328e59d8
@@ -44,17 +44,17 @@ conditional-buildstep:1.4.2                                     <
 config-file-provider:938.ve2b_8a_591c596                           config-file-provider:938.ve2b_8a_591c596
 credentials-binding:604.vb_64480b_c56ca_                           credentials-binding:604.vb_64480b_c56ca_
 credentials:1254.vb_96f366e7b_a_d                                  credentials:1254.vb_96f366e7b_a_d
-data-tables-api:1.13.3-3                                           data-tables-api:1.13.3-3
+data-tables-api:1.13.3-4                                        |  data-tables-api:1.13.3-3
 display-url-api:2.3.7                                              display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c                                   docker-commons:419.v8e3cd84ef49c
 docker-workflow:563.vd5d2e5c4007f                                  docker-workflow:563.vd5d2e5c4007f
 durable-task:507.v050055d0cb_dd                                    durable-task:507.v050055d0cb_dd
-echarts-api:5.4.0-3                                                echarts-api:5.4.0-3
+echarts-api:5.4.0-4                                             |  echarts-api:5.4.0-3
 email-ext:2.97                                                     email-ext:2.97
-embeddable-build-status:369.vb_a_68a_575a_b_11                     embeddable-build-status:369.vb_a_68a_575a_b_11
+embeddable-build-status:379.v1825c1804368                       |  embeddable-build-status:369.vb_a_68a_575a_b_11
 envinject-api:1.199.v3ce31253ed13                                  envinject-api:1.199.v3ce31253ed13
 envinject:2.901.v0038b_6471582                                     envinject:2.901.v0038b_6471582
-extended-read-permission:3.2                                    <
+extended-read-permission:53.v6499940139e5                       <
 external-monitor-job:203.v683c09d993b_9                         <
 favorite:2.4.2                                                     favorite:2.4.2
 font-awesome-api:6.3.0-2                                           font-awesome-api:6.3.0-2
@@ -71,7 +71,7 @@ handlebars:3.0.8                                                <
 handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953                  handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
 htmlpublisher:1.31                                                 htmlpublisher:1.31
 instance-identity:142.v04572ca_5b_265                              instance-identity:142.v04572ca_5b_265
-ionicons-api:45.vf54fca_5d2154                                     ionicons-api:45.vf54fca_5d2154
+ionicons-api:56.v1b_1c8c49374e                                  |  ionicons-api:45.vf54fca_5d2154
 jackson2-api:2.15.1-344.v6eb_55303dc3e                             jackson2-api:2.15.1-344.v6eb_55303dc3e
 jakarta-activation-api:2.0.1-3                                     jakarta-activation-api:2.0.1-3
 jakarta-mail-api:2.0.1-3                                           jakarta-mail-api:2.0.1-3
@@ -86,8 +86,8 @@ jira:3.9                                                        <
 jjwt-api:0.11.5-77.v646c772fddb_0                                  jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.16-2                                          <
 job-dsl:1.83                                                       job-dsl:1.83
-jquery-detached:1.2.1                                           <
-jquery3-api:3.6.4-1                                                jquery3-api:3.6.4-1
+jquery-detached:1.2.1                                           |  jquery3-api:3.6.4-1
+jquery3-api:3.7.0-1                                             <
 jquery:1.12.4-1                                                 <
 jsch:0.2.8-65.v052c39de79b_2                                       jsch:0.2.8-65.v052c39de79b_2
 junit:1202.v79a_986785076                                          junit:1202.v79a_986785076
@@ -147,8 +147,8 @@ windows-slaves:1.8.1                                            <
 workflow-aggregator:596.v8c21c963d92d                              workflow-aggregator:596.v8c21c963d92d
 workflow-api:1213.v646def1087f9                                    workflow-api:1213.v646def1087f9
 workflow-basic-steps:1017.vb_45b_302f0cea_                         workflow-basic-steps:1017.vb_45b_302f0cea_
-workflow-cps-global-lib:609.vd95673f149b_b                      <
-workflow-cps:3659.v582dc37621d8                                    workflow-cps:3659.v582dc37621d8
+workflow-cps-global-lib:609.vd95673f149b_b                      |  workflow-cps:3659.v582dc37621d8
+workflow-cps:3668.v1763b_b_6ccffd                               <
 workflow-durable-task-step:1246.v5524618ea_097                     workflow-durable-task-step:1246.v5524618ea_097
 workflow-job:1295.v395eb_7400005                                   workflow-job:1295.v395eb_7400005
 workflow-multibranch:746.v05814d19c001                             workflow-multibranch:746.v05814d19c001
