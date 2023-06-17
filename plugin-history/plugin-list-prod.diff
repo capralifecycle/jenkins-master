@@ -6,7 +6,7 @@ ant:487.vd79d090d4ea_e                                          <
 antisamy-markup-formatter:159.v25b_c67cd35fb_                      antisamy-markup-formatter:159.v25b_c67cd35fb_
 apache-httpcomponents-client-4-api:4.5.14-150.v7a_b_9d17134a_5     apache-httpcomponents-client-4-api:4.5.14-150.v7a_b_9d17134a_5
 authentication-tokens:1.53.v1c90fd9191a_b_                         authentication-tokens:1.53.v1c90fd9191a_b_
-authorize-project:1.6.0                                            authorize-project:1.6.0
+authorize-project:1.7.0                                         |  authorize-project:1.6.0
 blueocean-autofavorite:1.2.5                                    <
 blueocean-bitbucket-pipeline:1.27.4                                blueocean-bitbucket-pipeline:1.27.4
 blueocean-commons:1.27.4                                           blueocean-commons:1.27.4
@@ -28,10 +28,10 @@ blueocean-rest-impl:1.27.4                                         blueocean-res
 blueocean-rest:1.27.4                                              blueocean-rest:1.27.4
 blueocean-web:1.27.4                                               blueocean-web:1.27.4
 blueocean:1.27.4                                                   blueocean:1.27.4
-bootstrap4-api:4.6.0-6                                          <
-bootstrap5-api:5.2.3-1                                             bootstrap5-api:5.2.3-1
+bootstrap4-api:4.6.0-6                                          |  bootstrap5-api:5.2.3-1
+bootstrap5-api:5.3.0-1                                          <
 bouncycastle-api:2.28                                              bouncycastle-api:2.28
-branch-api:2.1105.v472604208c55                                    branch-api:2.1105.v472604208c55
+branch-api:2.1109.vdf225489a_16d                                |  branch-api:2.1105.v472604208c55
 build-monitor-plugin:1.14-717.v3efcdffe8d58                        build-monitor-plugin:1.14-717.v3efcdffe8d58
 caffeine-api:3.1.6-115.vb_8b_b_328e59d8                            caffeine-api:3.1.6-115.vb_8b_b_328e59d8
 checks-api:2.0.0                                                   checks-api:2.0.0
@@ -44,35 +44,35 @@ conditional-buildstep:1.4.2                                     <
 config-file-provider:938.ve2b_8a_591c596                           config-file-provider:938.ve2b_8a_591c596
 credentials-binding:604.vb_64480b_c56ca_                           credentials-binding:604.vb_64480b_c56ca_
 credentials:1254.vb_96f366e7b_a_d                                  credentials:1254.vb_96f366e7b_a_d
-data-tables-api:1.13.3-4                                           data-tables-api:1.13.3-4
+data-tables-api:1.13.4-1                                        |  data-tables-api:1.13.3-4
 display-url-api:2.3.7                                              display-url-api:2.3.7
 docker-commons:419.v8e3cd84ef49c                                   docker-commons:419.v8e3cd84ef49c
 docker-workflow:563.vd5d2e5c4007f                                  docker-workflow:563.vd5d2e5c4007f
 durable-task:507.v050055d0cb_dd                                    durable-task:507.v050055d0cb_dd
-echarts-api:5.4.0-4                                                echarts-api:5.4.0-4
-email-ext:2.97                                                     email-ext:2.97
-embeddable-build-status:379.v1825c1804368                          embeddable-build-status:379.v1825c1804368
+echarts-api:5.4.0-5                                             |  echarts-api:5.4.0-4
+email-ext:2.98                                                  |  email-ext:2.97
+embeddable-build-status:385.vc95f94e91fb_3                      |  embeddable-build-status:379.v1825c1804368
 envinject-api:1.199.v3ce31253ed13                                  envinject-api:1.199.v3ce31253ed13
 envinject:2.901.v0038b_6471582                                     envinject:2.901.v0038b_6471582
 extended-read-permission:53.v6499940139e5                       <
 external-monitor-job:203.v683c09d993b_9                         <
 favorite:2.4.2                                                     favorite:2.4.2
-font-awesome-api:6.3.0-2                                           font-awesome-api:6.3.0-2
-git-client:4.3.0                                                   git-client:4.3.0
+font-awesome-api:6.4.0-1                                        |  font-awesome-api:6.3.0-2
+git-client:4.4.0                                                |  git-client:4.3.0
 git-parameter:0.9.18                                               git-parameter:0.9.18
-git-server:99.va_0826a_b_cdfa_d                                 <
-git:5.0.2                                                          git:5.0.2
+git-server:99.va_0826a_b_cdfa_d                                 |  git:5.0.2
+git:5.1.0                                                       <
 github-api:1.314-431.v78d72a_3fe4c3                                github-api:1.314-431.v78d72a_3fe4c3
-github-branch-source:1703.vd5a_2b_29c6cdc                          github-branch-source:1703.vd5a_2b_29c6cdc
+github-branch-source:1725.vd391eef681a_e                        |  github-branch-source:1703.vd5a_2b_29c6cdc
 github-oauth:0.39                                                  github-oauth:0.39
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.37.1                                                      github:1.37.1
 handlebars:3.0.8                                                <
 handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953                  handy-uri-templates-2-api:2.1.8-22.v77d5b_75e6953
 htmlpublisher:1.31                                                 htmlpublisher:1.31
-instance-identity:142.v04572ca_5b_265                              instance-identity:142.v04572ca_5b_265
+instance-identity:173.va_37c494ec4e5                            |  instance-identity:142.v04572ca_5b_265
 ionicons-api:56.v1b_1c8c49374e                                     ionicons-api:56.v1b_1c8c49374e
-jackson2-api:2.15.1-344.v6eb_55303dc3e                             jackson2-api:2.15.1-344.v6eb_55303dc3e
+jackson2-api:2.15.2-350.v0c2f3f8fc595                           |  jackson2-api:2.15.1-344.v6eb_55303dc3e
 jakarta-activation-api:2.0.1-3                                     jakarta-activation-api:2.0.1-3
 jakarta-mail-api:2.0.1-3                                           jakarta-mail-api:2.0.1-3
 javadoc:233.vdc1a_ec702cff                                         javadoc:233.vdc1a_ec702cff
@@ -81,10 +81,10 @@ javax-mail-api:1.6.2-9                                          |  javax-mail-ap
 jaxb:2.3.8-1                                                       jaxb:2.3.8-1
 jdk-tool:66.vd8fa_64ee91b_d                                     |  jdk-tool:63.v62d2fd4b_4793
 jenkins-design-language:1.27.4                                     jenkins-design-language:1.27.4
-jersey2-api:2.39.1-1                                            <
+jersey2-api:2.39.1-2                                            <
 jira:3.10                                                       <
 jjwt-api:0.11.5-77.v646c772fddb_0                                  jjwt-api:0.11.5-77.v646c772fddb_0
-jnr-posix-api:3.1.16-2                                          |  job-dsl:1.83
+jnr-posix-api:3.1.17-1                                          |  job-dsl:1.83
 job-dsl:1.84                                                    <
 jquery-detached:1.2.1                                           <
 jquery3-api:3.7.0-1                                                jquery3-api:3.7.0-1
@@ -101,26 +101,26 @@ maven-plugin:3.22                                                  maven-plugin:
 mercurial:1260.vdfb_723cdcc81                                   <
 mina-sshd-api-common:2.10.0-69.v28e3e36d18eb_                      mina-sshd-api-common:2.10.0-69.v28e3e36d18eb_
 mina-sshd-api-core:2.10.0-69.v28e3e36d18eb_                        mina-sshd-api-core:2.10.0-69.v28e3e36d18eb_
-momentjs:1.1.1                                                  <
-okhttp-api:4.10.0-132.v7a_7b_91cef39c                              okhttp-api:4.10.0-132.v7a_7b_91cef39c
+momentjs:1.1.1                                                  |  okhttp-api:4.10.0-132.v7a_7b_91cef39c
+okhttp-api:4.11.0-145.vcb_8de402ef81                            <
 pam-auth:1.10                                                   <
 parameterized-trigger:2.45                                         parameterized-trigger:2.45
-pipeline-build-step:491.v1fec530da_858                             pipeline-build-step:491.v1fec530da_858
+pipeline-build-step:496.v2449a_9a_221f2                         |  pipeline-build-step:491.v1fec530da_858
 pipeline-graph-analysis:202.va_d268e64deb_3                        pipeline-graph-analysis:202.va_d268e64deb_3
 pipeline-groovy-lib:656.va_a_ceeb_6ffb_f7                          pipeline-groovy-lib:656.va_a_ceeb_6ffb_f7
 pipeline-input-step:468.va_5db_051498a_4                           pipeline-input-step:468.va_5db_051498a_4
 pipeline-milestone-step:111.v449306f708b_7                         pipeline-milestone-step:111.v449306f708b_7
-pipeline-model-api:2.2133.ve46a_6113dfc3                           pipeline-model-api:2.2133.ve46a_6113dfc3
-pipeline-model-definition:2.2133.ve46a_6113dfc3                    pipeline-model-definition:2.2133.ve46a_6113dfc3
-pipeline-model-extensions:2.2133.ve46a_6113dfc3                    pipeline-model-extensions:2.2133.ve46a_6113dfc3
+pipeline-model-api:2.2141.v5402e818a_779                        |  pipeline-model-api:2.2133.ve46a_6113dfc3
+pipeline-model-definition:2.2141.v5402e818a_779                 |  pipeline-model-definition:2.2133.ve46a_6113dfc3
+pipeline-model-extensions:2.2141.v5402e818a_779                 |  pipeline-model-extensions:2.2133.ve46a_6113dfc3
 pipeline-rest-api:2.32                                             pipeline-rest-api:2.32
 pipeline-stage-step:305.ve96d0205c1c6                              pipeline-stage-step:305.ve96d0205c1c6
-pipeline-stage-tags-metadata:2.2133.ve46a_6113dfc3                 pipeline-stage-tags-metadata:2.2133.ve46a_6113dfc3
+pipeline-stage-tags-metadata:2.2141.v5402e818a_779              |  pipeline-stage-tags-metadata:2.2133.ve46a_6113dfc3
 pipeline-stage-view:2.32                                           pipeline-stage-view:2.32
 pipeline-utility-steps:2.15.4                                   |  pipeline-utility-steps:2.15.3
 plain-credentials:143.v1b_df8b_d3b_e48                             plain-credentials:143.v1b_df8b_d3b_e48
 plot:2.1.12                                                        plot:2.1.12
-plugin-util-api:3.2.1                                              plugin-util-api:3.2.1
+plugin-util-api:3.3.0                                           |  plugin-util-api:3.2.1
 popper-api:1.16.1-3                                             <
 popper2-api:2.11.6-2                                            <
 pubsub-light:1.17                                                  pubsub-light:1.17
@@ -147,12 +147,12 @@ windows-slaves:1.8.1                                            <
 workflow-aggregator:596.v8c21c963d92d                              workflow-aggregator:596.v8c21c963d92d
 workflow-api:1213.v646def1087f9                                    workflow-api:1213.v646def1087f9
 workflow-basic-steps:1017.vb_45b_302f0cea_                         workflow-basic-steps:1017.vb_45b_302f0cea_
-workflow-cps-global-lib:609.vd95673f149b_b                      <
-workflow-cps:3673.v5b_dd74276262                                   workflow-cps:3673.v5b_dd74276262
+workflow-cps-global-lib:609.vd95673f149b_b                      |  workflow-cps:3673.v5b_dd74276262
+workflow-cps:3691.v28b_14c465a_b_b_                             <
 workflow-durable-task-step:1247.v7f9dfea_b_4fd0                    workflow-durable-task-step:1247.v7f9dfea_b_4fd0
-workflow-job:1301.v054d9cea_9593                                   workflow-job:1301.v054d9cea_9593
-workflow-multibranch:746.v05814d19c001                             workflow-multibranch:746.v05814d19c001
-workflow-scm-step:408.v7d5b_135a_b_d49                             workflow-scm-step:408.v7d5b_135a_b_d49
+workflow-job:1308.v58d48a_763b_31                               |  workflow-job:1301.v054d9cea_9593
+workflow-multibranch:756.v891d88f2cd46                          |  workflow-multibranch:746.v05814d19c001
+workflow-scm-step:415.v434365564324                             |  workflow-scm-step:408.v7d5b_135a_b_d49
 workflow-step-api:639.v6eca_cd8c04a_a_                             workflow-step-api:639.v6eca_cd8c04a_a_
 workflow-support:839.v35e2736cfd5c                                 workflow-support:839.v35e2736cfd5c
 ws-cleanup:0.45                                                    ws-cleanup:0.45
