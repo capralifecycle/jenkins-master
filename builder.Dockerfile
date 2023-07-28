@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim@sha256:0781db7f3f74866059cf161d145af0bc16fb13493b6e0f87ca20d7e34498d691
+FROM debian:bullseye-slim@sha256:6d2ac0051bea3dc6299b38181f0d6c214fc90598806be9ca186a9c70914698f0
 
 RUN set -eux; \
     apt-get update; \
