@@ -1,40 +1,40 @@
 jenkins.capra.tv                                                   build-from-source
 ----------------                                                   -----------------
-ace-editor:1.1                                                  <
-ansicolor:1.0.3                                                    ansicolor:1.0.3
+ace-editor:1.1                                                  |  ansicolor:1.0.3
+ansicolor:1.0.4                                                 <
 ant:497.v94e7d9fffa_b_9                                         <
 antisamy-markup-formatter:162.v0e6ec0fcfcf6                        antisamy-markup-formatter:162.v0e6ec0fcfcf6
 apache-httpcomponents-client-4-api:4.5.14-208.v438351942757        apache-httpcomponents-client-4-api:4.5.14-208.v438351942757
 authentication-tokens:1.53.v1c90fd9191a_b_                         authentication-tokens:1.53.v1c90fd9191a_b_
 authorize-project:1.7.1                                            authorize-project:1.7.1
-blueocean-autofavorite:1.2.5                                    <
-blueocean-bitbucket-pipeline:1.27.6                                blueocean-bitbucket-pipeline:1.27.6
-blueocean-commons:1.27.6                                           blueocean-commons:1.27.6
-blueocean-config:1.27.6                                            blueocean-config:1.27.6
-blueocean-core-js:1.27.6                                           blueocean-core-js:1.27.6
-blueocean-dashboard:1.27.6                                         blueocean-dashboard:1.27.6
+blueocean-autofavorite:1.2.5                                    |  blueocean-bitbucket-pipeline:1.27.6
+blueocean-bitbucket-pipeline:1.27.7                             |  blueocean-commons:1.27.6
+blueocean-commons:1.27.7                                        |  blueocean-config:1.27.6
+blueocean-config:1.27.7                                         |  blueocean-core-js:1.27.6
+blueocean-core-js:1.27.7                                        |  blueocean-dashboard:1.27.6
+blueocean-dashboard:1.27.7                                      <
 blueocean-display-url:2.4.2                                        blueocean-display-url:2.4.2
-blueocean-events:1.27.6                                            blueocean-events:1.27.6
-blueocean-git-pipeline:1.27.6                                      blueocean-git-pipeline:1.27.6
-blueocean-github-pipeline:1.27.6                                   blueocean-github-pipeline:1.27.6
-blueocean-i18n:1.27.6                                              blueocean-i18n:1.27.6
-blueocean-jira:1.27.6                                           <
-blueocean-jwt:1.27.6                                               blueocean-jwt:1.27.6
-blueocean-personalization:1.27.6                                   blueocean-personalization:1.27.6
-blueocean-pipeline-api-impl:1.27.6                                 blueocean-pipeline-api-impl:1.27.6
-blueocean-pipeline-editor:1.27.6                                   blueocean-pipeline-editor:1.27.6
-blueocean-pipeline-scm-api:1.27.6                                  blueocean-pipeline-scm-api:1.27.6
-blueocean-rest-impl:1.27.6                                         blueocean-rest-impl:1.27.6
-blueocean-rest:1.27.6                                              blueocean-rest:1.27.6
-blueocean-web:1.27.6                                               blueocean-web:1.27.6
-blueocean:1.27.6                                                   blueocean:1.27.6
+blueocean-events:1.27.7                                         |  blueocean-events:1.27.6
+blueocean-git-pipeline:1.27.7                                   |  blueocean-git-pipeline:1.27.6
+blueocean-github-pipeline:1.27.7                                |  blueocean-github-pipeline:1.27.6
+blueocean-i18n:1.27.7                                           |  blueocean-i18n:1.27.6
+blueocean-jira:1.27.7                                           |  blueocean-jwt:1.27.6
+blueocean-jwt:1.27.7                                            |  blueocean-personalization:1.27.6
+blueocean-personalization:1.27.7                                |  blueocean-pipeline-api-impl:1.27.6
+blueocean-pipeline-api-impl:1.27.7                              |  blueocean-pipeline-editor:1.27.6
+blueocean-pipeline-editor:1.27.7                                |  blueocean-pipeline-scm-api:1.27.6
+blueocean-pipeline-scm-api:1.27.7                               |  blueocean-rest-impl:1.27.6
+blueocean-rest-impl:1.27.7                                      |  blueocean-rest:1.27.6
+blueocean-rest:1.27.7                                           |  blueocean-web:1.27.6
+blueocean-web:1.27.7                                            |  blueocean:1.27.6
+blueocean:1.27.7                                                <
 bootstrap4-api:4.6.0-6                                          <
 bootstrap5-api:5.3.0-1                                             bootstrap5-api:5.3.0-1
 bouncycastle-api:2.29                                              bouncycastle-api:2.29
-branch-api:2.1122.v09cb_8ea_8a_724                                 branch-api:2.1122.v09cb_8ea_8a_724
+branch-api:2.1128.v717130d4f816                                 |  branch-api:2.1122.v09cb_8ea_8a_724
 build-monitor-plugin:1.14-745.ve2023a_305f40                       build-monitor-plugin:1.14-745.ve2023a_305f40
 caffeine-api:3.1.8-133.v17b_1ff2e0599                              caffeine-api:3.1.8-133.v17b_1ff2e0599
-checks-api:2.0.0                                                   checks-api:2.0.0
+checks-api:2.0.1                                                |  checks-api:2.0.0
 cloudbees-bitbucket-branch-source:832.v43175a_425ea_6              cloudbees-bitbucket-branch-source:832.v43175a_425ea_6
 cloudbees-folder:6.848.ve3b_fd7839a_81                             cloudbees-folder:6.848.ve3b_fd7839a_81
 command-launcher:107.v773860566e2e                              |  command-launcher:100.v2f6722292ee8
@@ -50,20 +50,20 @@ docker-commons:439.va_3cb_0a_6a_fb_29                              docker-common
 docker-workflow:572.v950f58993843                                  docker-workflow:572.v950f58993843
 durable-task:523.va_a_22cf15d5e0                                   durable-task:523.va_a_22cf15d5e0
 echarts-api:5.4.0-5                                                echarts-api:5.4.0-5
-email-ext:2.100                                                    email-ext:2.100
+email-ext:2.101                                                 |  email-ext:2.100
 embeddable-build-status:412.v09da_db_1dee68                        embeddable-build-status:412.v09da_db_1dee68
 envinject-api:1.199.v3ce31253ed13                                  envinject-api:1.199.v3ce31253ed13
 envinject:2.908.v66a_774b_31d93                                    envinject:2.908.v66a_774b_31d93
 extended-read-permission:53.v6499940139e5                       <
-external-monitor-job:207.v98a_a_37a_85525                       <
+external-monitor-job:215.v2e88e894db_f8                         <
 favorite:2.4.3                                                     favorite:2.4.3
 font-awesome-api:6.4.0-2                                           font-awesome-api:6.4.0-2
-git-client:4.4.0                                                   git-client:4.4.0
+git-client:4.5.0                                                |  git-client:4.4.0
 git-parameter:0.9.19                                               git-parameter:0.9.19
 git-server:99.va_0826a_b_cdfa_d                                 <
 git:5.2.0                                                          git:5.2.0
 github-api:1.314-431.v78d72a_3fe4c3                                github-api:1.314-431.v78d72a_3fe4c3
-github-branch-source:1732.v3f1889a_c475b_                          github-branch-source:1732.v3f1889a_c475b_
+github-branch-source:1734.v8a_ed3a_653490                       |  github-branch-source:1732.v3f1889a_c475b_
 github-oauth:588.vf696a_350572a_                                   github-oauth:588.vf696a_350572a_
 github-scm-trait-notification-context:1.1                          github-scm-trait-notification-context:1.1
 github:1.37.3                                                      github:1.37.3
@@ -80,9 +80,9 @@ javax-activation-api:1.2.0-6                                       javax-activat
 javax-mail-api:1.6.2-9                                             javax-mail-api:1.6.2-9
 jaxb:2.3.8-1                                                       jaxb:2.3.8-1
 jdk-tool:73.vddf737284550                                       |  jdk-tool:66.vd8fa_64ee91b_d
-jenkins-design-language:1.27.6                                     jenkins-design-language:1.27.6
+jenkins-design-language:1.27.7                                  |  jenkins-design-language:1.27.6
 jersey2-api:2.40-1                                              <
-jira:3.10                                                       <
+jira:3.11                                                       <
 jjwt-api:0.11.5-77.v646c772fddb_0                                  jjwt-api:0.11.5-77.v646c772fddb_0
 jnr-posix-api:3.1.17-1                                          |  job-dsl:1.84
 job-dsl:1.85                                                    <
@@ -107,7 +107,7 @@ pam-auth:1.10                                                   <
 parameterized-trigger:2.46                                         parameterized-trigger:2.46
 pipeline-build-step:505.v5f0844d8d126                              pipeline-build-step:505.v5f0844d8d126
 pipeline-graph-analysis:202.va_d268e64deb_3                        pipeline-graph-analysis:202.va_d268e64deb_3
-pipeline-groovy-lib:685.v8ee9ed91d574                           |  pipeline-groovy-lib:671.v07c339c842e8
+pipeline-groovy-lib:689.veec561a_dee13                          |  pipeline-groovy-lib:671.v07c339c842e8
 pipeline-input-step:477.v339683a_8d55e                             pipeline-input-step:477.v339683a_8d55e
 pipeline-milestone-step:111.v449306f708b_7                         pipeline-milestone-step:111.v449306f708b_7
 pipeline-model-api:2.2144.v077a_d1928a_40                          pipeline-model-api:2.2144.v077a_d1928a_40
@@ -145,14 +145,14 @@ variant:60.v7290fc0eb_b_cd                                      |  variant:59.vf
 view-job-filters:369.ve0513a_a_f5524                               view-job-filters:369.ve0513a_a_f5524
 windows-slaves:1.8.1                                            <
 workflow-aggregator:596.v8c21c963d92d                              workflow-aggregator:596.v8c21c963d92d
-workflow-api:1267.vd9b_a_ddd9eb_47                                 workflow-api:1267.vd9b_a_ddd9eb_47
+workflow-api:1281.vca_5fddb_3fceb_                              |  workflow-api:1267.vd9b_a_ddd9eb_47
 workflow-basic-steps:1042.ve7b_140c4a_e0c                          workflow-basic-steps:1042.ve7b_140c4a_e0c
 workflow-cps-global-lib:609.vd95673f149b_b                      |  workflow-cps:3773.v505e0052522c
-workflow-cps:3774.v4a_d648d409ce                                <
+workflow-cps:3787.v8f5dcd14a_fa_c                               <
 workflow-durable-task-step:1289.v4d3e7b_01546b_                    workflow-durable-task-step:1289.v4d3e7b_01546b_
-workflow-job:1342.v046651d5b_dfe                                |  workflow-job:1341.vd9fa_65f771dd
+workflow-job:1346.v180a_63f40267                                |  workflow-job:1341.vd9fa_65f771dd
 workflow-multibranch:756.v891d88f2cd46                             workflow-multibranch:756.v891d88f2cd46
 workflow-scm-step:415.v434365564324                                workflow-scm-step:415.v434365564324
 workflow-step-api:639.v6eca_cd8c04a_a_                             workflow-step-api:639.v6eca_cd8c04a_a_
-workflow-support:848.v5a_383b_d14921                               workflow-support:848.v5a_383b_d14921
+workflow-support:865.v43e78cc44e0d                              |  workflow-support:848.v5a_383b_d14921
 ws-cleanup:0.45                                                    ws-cleanup:0.45
