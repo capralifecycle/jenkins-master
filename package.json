@@ -5,7 +5,7 @@
   "node": ">=14.16",
   "scripts": {
     "build-image": "docker build -t jenkins .",
-    "test-image": "ts-node --esm ci/test-and-extract-data.ts",
+    "test-image": "node --loader ts-node/esm ci/test-and-extract-data.ts",
     "test": "npm run build-image && npm run test-image jenkins"
   },
   "private": true,
