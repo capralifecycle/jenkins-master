@@ -1,4 +1,4 @@
 This is the last built version and is kept
 automatically updated when building in Jenkins.
 
-Version: 2.426.1
+Version: 2.426.2
