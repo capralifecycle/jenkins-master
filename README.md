@@ -3,7 +3,7 @@
 This repository contains the Docker image for Jenkins master used with
 our Jenkins setup.
 
-Details about our setup is available on https://confluence.capraconsulting.no/x/uALGBQ
+Details about our setup is available on https://liflig.atlassian.net/wiki/spaces/TNG/pages/17637621/Liflig+Jenkins
 
 ## Build and verify
 
