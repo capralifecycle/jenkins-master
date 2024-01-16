@@ -31,7 +31,7 @@ blueocean:1.27.9                                                   blueocean:1.2
 bootstrap4-api:4.6.0-6                                          <
 bootstrap5-api:5.3.2-3                                             bootstrap5-api:5.3.2-3
 bouncycastle-api:2.30.1.77-225.v26ea_c9455fd9                      bouncycastle-api:2.30.1.77-225.v26ea_c9455fd9
-branch-api:2.1135.v8de8e7899051                                    branch-api:2.1135.v8de8e7899051
+branch-api:2.1144.v1425d1c3d5a_7                                |  branch-api:2.1135.v8de8e7899051
 build-monitor-plugin:1.14-826.vb_a_c11536174d                   |  build-monitor-plugin:1.14-745.ve2023a_305f40
 caffeine-api:3.1.8-133.v17b_1ff2e0599                              caffeine-api:3.1.8-133.v17b_1ff2e0599
 checks-api:2.0.2                                                   checks-api:2.0.2
@@ -48,7 +48,7 @@ data-tables-api:1.13.8-2                                           data-tables-a
 display-url-api:2.200.vb_9327d658781                               display-url-api:2.200.vb_9327d658781
 docker-commons:439.va_3cb_0a_6a_fb_29                              docker-commons:439.va_3cb_0a_6a_fb_29
 docker-workflow:572.v950f58993843                                  docker-workflow:572.v950f58993843
-durable-task:523.va_a_22cf15d5e0                                   durable-task:523.va_a_22cf15d5e0
+durable-task:543.v262f6a_803410                                 |  durable-task:523.va_a_22cf15d5e0
 echarts-api:5.4.3-2                                                echarts-api:5.4.3-2
 email-ext:2.103                                                 |  email-ext:2.102
 embeddable-build-status:467.v4a_954796e45d                      |  embeddable-build-status:459.v428d6761597b_
@@ -67,7 +67,7 @@ github-branch-source:1767.va_7d01ea_c7256                          github-branch
 github-oauth:597.ve0c3480fcb_d0                                    github-oauth:597.ve0c3480fcb_d0
 github-scm-trait-notification-context:40.vfa_7f31a_b_d7f8          github-scm-trait-notification-context:40.vfa_7f31a_b_d7f8
 github:1.37.3.1                                                    github:1.37.3.1
-gson-api:2.10.1-3.vb_25b_599b_e4f8                                 gson-api:2.10.1-3.vb_25b_599b_e4f8
+gson-api:2.10.1-15.v0d99f670e0a_7                               |  gson-api:2.10.1-3.vb_25b_599b_e4f8
 handlebars:3.0.8                                                <
 handy-uri-templates-2-api:2.1.8-30.v7e777411b_148                  handy-uri-templates-2-api:2.1.8-30.v7e777411b_148
 htmlpublisher:1.32                                                 htmlpublisher:1.32
@@ -91,11 +91,11 @@ joda-time-api:2.12.5-5.v5495a_235fedf                              joda-time-api
 jquery-detached:1.2.1                                           <
 jquery3-api:3.7.1-1                                                jquery3-api:3.7.1-1
 jquery:1.12.4-1                                                 |  jsch:0.2.8-65.v052c39de79b_2
-jsch:0.2.16-86.v42e010d9484b_                                   <
-json-path-api:2.8.0-5.v07cb_a_1ca_738c                             json-path-api:2.8.0-5.v07cb_a_1ca_738c
+jsch:0.2.16-86.v42e010d9484b_                                   |  json-path-api:2.8.0-5.v07cb_a_1ca_738c
+json-path-api:2.8.0-21.v8b_7dc8b_1037b_                         <
 junit:1252.vfc2e5efa_294f                                          junit:1252.vfc2e5efa_294f
 ldap:711.vb_d1a_491714dc                                        |  lockable-resources:1218.va_3dd45e2b_fa_7
-lockable-resources:1222.v3d55a_36d63e4                          <
+lockable-resources:1228.v1b_2379444670                          <
 m2release:0.16.4                                                   m2release:0.16.4
 mailer:463.vedf8358e006b_                                          mailer:463.vedf8358e006b_
 matrix-auth:3.1.10                                              |  matrix-auth:3.2.1
@@ -131,16 +131,16 @@ resource-disposer:0.23                                             resource-disp
 role-strategy:633.v836e5b_3e80a_5                               |  role-strategy:689.v731678c3e0eb_
 run-condition:1.7                                               <
 scm-api:683.vb_16722fb_b_80b_                                      scm-api:683.vb_16722fb_b_80b_
-script-security:1305.v487433146192                              |  script-security:1294.v99333c047434
+script-security:1313.v7a_6067dc7087                             |  script-security:1294.v99333c047434
 slack:684.v833089650554                                            slack:684.v833089650554
 snakeyaml-api:2.2-111.vc6598e30cc65                                snakeyaml-api:2.2-111.vc6598e30cc65
-sonar:2.16.1                                                       sonar:2.16.1
+sonar:2.17.1                                                    |  sonar:2.16.1
 sse-gateway:1.26                                                   sse-gateway:1.26
 ssh-agent:346.vda_a_c4f2c8e50                                      ssh-agent:346.vda_a_c4f2c8e50
 ssh-credentials:308.ve4497b_ccd8f4                                 ssh-credentials:308.ve4497b_ccd8f4
 sshd:3.312.v1c601b_c83b_0e                                      <
 structs:325.vcb_307d2a_2782                                        structs:325.vcb_307d2a_2782
-swarm:3.42                                                         swarm:3.42
+swarm:3.44                                                      |  swarm:3.42
 timestamper:1.26                                                   timestamper:1.26
 token-macro:400.v35420b_922dcb_                                    token-macro:400.v35420b_922dcb_
 trilead-api:2.133.vfb_8a_7b_9c5dd1                                 trilead-api:2.133.vfb_8a_7b_9c5dd1
@@ -151,10 +151,10 @@ workflow-aggregator:596.v8c21c963d92d                              workflow-aggr
 workflow-api:1283.v99c10937efcb_                                   workflow-api:1283.v99c10937efcb_
 workflow-basic-steps:1042.ve7b_140c4a_e0c                          workflow-basic-steps:1042.ve7b_140c4a_e0c
 workflow-cps-global-lib:609.vd95673f149b_b                      |  workflow-cps:3826.v3b_5707fe44da_
-workflow-cps:3832.vc43e04d6d68c                                 <
+workflow-cps:3837.v305192405b_c0                                <
 workflow-durable-task-step:1313.vcb_970b_d2a_fb_3                  workflow-durable-task-step:1313.vcb_970b_d2a_fb_3
 workflow-job:1385.vb_58b_86ea_fff1                                 workflow-job:1385.vb_58b_86ea_fff1
-workflow-multibranch:756.v891d88f2cd46                             workflow-multibranch:756.v891d88f2cd46
+workflow-multibranch:770.v1a_d0708dd1f6                         |  workflow-multibranch:756.v891d88f2cd46
 workflow-scm-step:415.v434365564324                                workflow-scm-step:415.v434365564324
 workflow-step-api:639.v6eca_cd8c04a_a_                             workflow-step-api:639.v6eca_cd8c04a_a_
 workflow-support:865.v43e78cc44e0d                                 workflow-support:865.v43e78cc44e0d
