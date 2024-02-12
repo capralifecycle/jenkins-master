@@ -10,7 +10,7 @@
   },
   "private": true,
   "devDependencies": {
-    "@capraconsulting/cals-cli": "3.4.5",
+    "@capraconsulting/cals-cli": "3.4.6",
     "@types/node": "16.18.80",
     "execa": "6.1.0",
     "ts-node": "10.9.2",
