@@ -11,7 +11,7 @@
   "private": true,
   "devDependencies": {
     "@capraconsulting/cals-cli": "3.4.11",
-    "@types/node": "16.18.96",
+    "@types/node": "16.18.97",
     "execa": "6.1.0",
     "ts-node": "10.9.2",
     "typescript": "5.4.5"
